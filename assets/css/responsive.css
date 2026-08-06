@@ -42,6 +42,26 @@
   }
 }
 
+/* ---- Tablet: about / dashboard grids ---- */
+@media (max-width: 960px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .about__intro {
+    position: static;
+  }
+
+  .dashboard__kpis {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard__charts {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---- Mobile ---- */
 @media (max-width: 640px) {
   :root {
@@ -61,5 +81,25 @@
   .footer__inner {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline {
+    padding-left: var(--space-4);
+  }
+
+  .timeline__item::before {
+    left: calc(-1 * var(--space-4) - 5px);
+  }
+
+  .dashboard__kpis {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard {
+    padding: var(--space-3);
   }
 }

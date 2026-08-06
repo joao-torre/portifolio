@@ -192,6 +192,314 @@ section {
   gap: var(--space-2);
 }
 
+/* ---------------------------------------------------------------------- */
+/* ABOUT                                                                   */
+/* ---------------------------------------------------------------------- */
+.about__grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.about__intro {
+  position: sticky;
+  top: 120px;
+}
+
+.about__text {
+  font-size: var(--fs-body-lg);
+  color: var(--color-text-secondary);
+  max-width: 46ch;
+}
+
+.about__text + .about__text {
+  margin-top: var(--space-2);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2);
+}
+
+.skill-card__icon {
+  width: 28px;
+  height: 28px;
+  color: var(--color-accent);
+  margin-bottom: var(--space-2);
+}
+
+.skill-card__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-body-lg);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.skill-card__desc {
+  font-size: var(--fs-body-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-normal);
+}
+
+/* ---------------------------------------------------------------------- */
+/* TIMELINE                                                                */
+/* ---------------------------------------------------------------------- */
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  padding-left: var(--space-5);
+  border-left: 1px solid var(--color-border);
+}
+
+.timeline__item {
+  position: relative;
+}
+
+.timeline__item::before {
+  content: '';
+  position: absolute;
+  left: calc(-1 * var(--space-5) - 5px);
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 2px solid var(--color-text-muted);
+}
+
+.timeline__item--current::before {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  box-shadow: 0 0 0 4px rgba(96, 165, 250, 0.15);
+}
+
+.timeline__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.timeline__badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+  background: rgba(52, 211, 153, 0.12);
+  color: var(--color-success);
+  font-size: var(--fs-caption);
+  letter-spacing: 0.04em;
+}
+
+.timeline__role {
+  font-family: var(--font-display);
+  font-size: var(--fs-display-md);
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.timeline__company {
+  color: var(--color-text-secondary);
+  font-size: var(--fs-body);
+  margin-bottom: var(--space-2);
+}
+
+.timeline__highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: var(--space-2);
+  color: var(--color-text-secondary);
+  font-size: var(--fs-body-sm);
+  max-width: 68ch;
+}
+
+.timeline__highlights li {
+  position: relative;
+  padding-left: 1.1rem;
+}
+
+.timeline__highlights li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.timeline__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  color: var(--color-accent);
+  border: 1px solid var(--color-border);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+}
+
+/* ---------------------------------------------------------------------- */
+/* DASHBOARD (demo)                                                        */
+/* ---------------------------------------------------------------------- */
+.dashboard__disclaimer {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+
+.dashboard {
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+}
+
+.dashboard__kpis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.kpi-card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: border-color var(--transition-base);
+}
+
+.kpi-card:hover {
+  border-color: var(--color-border-hover);
+}
+
+.kpi-card__label {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.kpi-card__value {
+  font-family: var(--font-display);
+  font-size: var(--fs-display-md);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.kpi-card__delta {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  color: var(--color-text-muted);
+}
+
+.kpi-card__delta--up {
+  color: var(--color-success);
+}
+
+.kpi-card__delta--down {
+  color: var(--color-success);
+}
+
+.dashboard__charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}
+
+.chart-panel {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+
+.chart-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+}
+
+.chart-panel__header h3 {
+  font-family: var(--font-body);
+  font-size: var(--fs-body-sm);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.chart-panel__tag {
+  font-size: var(--fs-caption);
+  color: var(--color-text-muted);
+}
+
+.chart-svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.chart-bar {
+  fill: var(--color-primary);
+  transition: fill var(--transition-fast);
+}
+
+.chart-bar:hover {
+  fill: var(--color-accent);
+}
+
+.chart-bar-label,
+.chart-axis-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  fill: var(--color-text-muted);
+}
+
+.chart-bar-value {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  fill: var(--color-text-secondary);
+}
+
+.chart-line-path {
+  fill: none;
+  stroke: var(--color-accent);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.chart-line-area {
+  fill: url(#lineGradient);
+  opacity: 0.5;
+}
+
+.chart-line-dot {
+  fill: var(--color-bg-elevated);
+  stroke: var(--color-accent);
+  stroke-width: 2;
+}
+
 /* ---- Utility ---- */
 .text-gradient {
   background: var(--gradient-primary);
