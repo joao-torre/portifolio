@@ -36,11 +36,31 @@ npx serve .
 python3 -m http.server 5500
 ```
 
+## Curando um projeto no GitHub
+
+A seção de Projetos puxa automaticamente todos os repositórios públicos via GitHub API — não precisa tocar em código pra um projeto novo aparecer.
+
+Para enriquecer um card específico com objetivo, desafios e aprendizados, adicione uma entrada em `data/projects.json` com o campo `repo` igual ao nome exato do repositório:
+
+```json
+{
+  "repo": "nome-exato-do-repositorio",
+  "title": "Nome de exibição (opcional)",
+  "objective": "O que o projeto resolve.",
+  "challenges": "O que foi difícil.",
+  "learnings": "O que ficou de aprendizado.",
+  "stack": ["Python", "Power BI"],
+  "image": "assets/images/projects/nome.png"
+}
+```
+
+Repositórios sem entrada correspondente ainda aparecem — só que com a descrição padrão do GitHub, no lugar de objetivo/desafios/aprendizados.
+
 ## Roadmap
 
 - [x] **Sprint 1** — Estrutura, Design System, Navbar, Hero, Loader, Footer
-- [ ] **Sprint 2** — About, Skills, Timeline, Dashboard animado
-- [ ] **Sprint 3** — Projetos (GitHub API), Certificações, Contato
+- [x] **Sprint 2** — About, Skills, Timeline, Dashboard animado
+- [x] **Sprint 3** — Projetos (GitHub API), Certificações, Contato
 - [ ] **Sprint 4** — SEO, responsividade fina, performance, deploy
 
 ## Design System

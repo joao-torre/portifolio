@@ -234,42 +234,59 @@
       </div>
     </section>
 
-    <!-- ==================== PROJECTS (placeholder — Sprint 3) ==================== -->
+    <!-- ==================== PROJECTS ==================== -->
     <section id="projects">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header" data-reveal>
           <span class="section-eyebrow">// 03 — Projects</span>
           <h2 class="section-title">Projetos</h2>
+          <p class="section-subtitle">
+            Puxados automaticamente do meu <a href="https://github.com/joao-torre" target="_blank" rel="noopener noreferrer" class="inline-link">GitHub</a> — assim que publico um repositório novo, ele aparece aqui.
+          </p>
         </div>
-        <p class="hero__tagline" style="font-size: var(--fs-body-lg); font-family: var(--font-body); color: var(--color-text-secondary);">
-          Integração automática com GitHub — chega no Sprint 3.
-        </p>
+
+        <div class="projects-grid" data-projects>
+          <!-- Preenchido dinamicamente por projects.js -->
+        </div>
       </div>
     </section>
 
-    <!-- ==================== CERTIFICATIONS (placeholder — Sprint 3) ==================== -->
+    <!-- ==================== CERTIFICATIONS ==================== -->
     <section id="certifications">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header" data-reveal>
           <span class="section-eyebrow">// 04 — Certifications</span>
           <h2 class="section-title">Certificações</h2>
         </div>
-        <p class="hero__tagline" style="font-size: var(--fs-body-lg); font-family: var(--font-body); color: var(--color-text-secondary);">
-          Seção em construção — chega no Sprint 3.
-        </p>
+
+        <div class="certifications-grid" data-certifications>
+          <!-- Preenchido dinamicamente por certifications.js a partir de data/certifications.json -->
+        </div>
       </div>
     </section>
 
-    <!-- ==================== CONTACT (placeholder — Sprint 3) ==================== -->
+    <!-- ==================== CONTACT ==================== -->
     <section id="contact">
       <div class="container">
-        <div class="section-header">
-          <span class="section-eyebrow">// 05 — Contact</span>
-          <h2 class="section-title">Vamos conversar</h2>
+        <div class="contact">
+          <div class="section-header" data-reveal>
+            <span class="section-eyebrow">// 05 — Contact</span>
+            <h2 class="section-title contact__title">Vamos conversar.</h2>
+            <p class="contact__lead">
+              Aberto a oportunidades em dados, BI e risco de crédito. Se meu perfil faz sentido pra sua vaga, me chama.
+            </p>
+          </div>
+
+          <div class="contact__actions" data-reveal data-reveal-delay="80">
+            <button class="btn btn--primary" data-copy-email data-email="joaogabrieltorre@gmail.com">
+              <span data-copy-label>joaogabrieltorre@gmail.com</span>
+            </button>
+            <a href="https://linkedin.com/in/joaogabrieltorre" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/joao-torre" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+
+          <p class="contact__phone mono" data-reveal data-reveal-delay="140">(15) 99714-5415 · Sorocaba, SP</p>
         </div>
-        <p class="hero__tagline" style="font-size: var(--fs-body-lg); font-family: var(--font-body); color: var(--color-text-secondary);">
-          joaogabrieltorre@gmail.com · Seção final chega no Sprint 3.
-        </p>
       </div>
     </section>
   </main>
@@ -297,6 +314,8 @@
   <script src="assets/js/github.js"></script>
   <script src="assets/js/timeline.js"></script>
   <script src="assets/js/dashboard.js"></script>
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/certifications.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

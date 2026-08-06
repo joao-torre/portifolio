@@ -81,6 +81,30 @@
   }
 
   /* ---------------------------------------------------------------- */
+  /* CONTACT — copiar e-mail                                          */
+  /* ---------------------------------------------------------------- */
+  const copyBtn = document.querySelector('[data-copy-email]');
+
+  if (copyBtn) {
+    const label = copyBtn.querySelector('[data-copy-label]');
+    const originalText = label ? label.textContent : '';
+
+    copyBtn.addEventListener('click', async () => {
+      const email = copyBtn.getAttribute('data-email');
+      try {
+        await navigator.clipboard.writeText(email);
+        if (label) label.textContent = 'E-mail copiado ✓';
+      } catch {
+        if (label) label.textContent = email;
+        window.location.href = `mailto:${email}`;
+      }
+      setTimeout(() => {
+        if (label) label.textContent = originalText;
+      }, 2200);
+    });
+  }
+
+  /* ---------------------------------------------------------------- */
   /* FOOTER — ano corrente                                            */
   /* ---------------------------------------------------------------- */
   const yearEl = document.querySelector('[data-current-year]');
