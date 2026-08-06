@@ -1,0 +1,49 @@
+[
+  {
+    "role": "Analista de Planejamento de Cobrança",
+    "company": "Banco Afinz",
+    "location": "Sorocaba, SP",
+    "period": "Jun/2026 — Atual",
+    "current": true,
+    "summary": "Desenvolvimento de dashboards executivos e estratégias de cobrança orientadas por dados.",
+    "highlights": [
+      "Desenvolvimento de dashboards executivos e indicadores operacionais em Power BI para acompanhamento da performance das carteiras de cobrança.",
+      "Extração, tratamento e análise de grandes volumes de dados utilizando Oracle SQL, Amazon Athena e Amazon S3.",
+      "Apoio à definição de estratégias de cobrança por meio da análise de carteiras, segmentação de clientes, aging e comportamento operacional.",
+      "Automatização de processos analíticos utilizando Python e Power Query, reduzindo atividades manuais e aumentando a eficiência operacional.",
+      "Atuação integrada com as áreas de Operação, Analytics, Dados e Tecnologia, apoiando a evolução dos processos e estratégias operacionais.",
+      "Elaboração de relatórios executivos e análises para suporte à tomada de decisão da gestão."
+    ],
+    "stack": ["Power BI", "Oracle SQL", "Amazon Athena", "Amazon S3", "Python", "Power Query"]
+  },
+  {
+    "role": "Assistente de Operações",
+    "company": "Banco Afinz",
+    "location": "Sorocaba, SP",
+    "period": "Jun/2024 — Mai/2026",
+    "current": false,
+    "summary": "Gestão operacional de campanhas de cobrança e planejamento de capacidade via Genesys Cloud CX.",
+    "highlights": [
+      "Gestão operacional de campanhas de cobrança ativa e receptiva utilizando Genesys Cloud CX.",
+      "Parametrização, configuração e acompanhamento de Outbound Campaigns, filas, estratégias de discagem e distribuição operacional.",
+      "Acompanhamento das estratégias de acionamento, segmentação de clientes e régua de cobrança.",
+      "Desenvolvimento de análises operacionais, forecast e planejamento de capacidade para apoio às operações.",
+      "Identificação de gargalos operacionais e implementação de melhorias contínuas baseadas em dados.",
+      "Interface entre as áreas de Operação, Planejamento, Analytics e Tecnologia para resolução de incidentes e evolução dos processos operacionais."
+    ],
+    "stack": ["Genesys Cloud CX", "Excel", "Power BI"]
+  },
+  {
+    "role": "Jovem Aprendiz",
+    "company": "Banco Afinz",
+    "location": "Sorocaba, SP",
+    "period": "Fev/2023 — Mai/2024",
+    "current": false,
+    "summary": "Primeiros passos em organização e análise de dados operacionais.",
+    "highlights": [
+      "Apoio às rotinas operacionais com foco em organização e análise de dados.",
+      "Criação e manutenção de planilhas e dashboards para acompanhamento de indicadores."
+    ],
+    "stack": ["Excel"]
+  }
+]

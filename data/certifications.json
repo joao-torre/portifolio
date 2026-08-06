@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Risk Management Specialization",
+    "institution": "New York Institute of Finance",
+    "hours": 40,
+    "category": "Credit Risk",
+    "logo": "assets/images/logos/nyif.png",
+    "credentialUrl": ""
+  },
+  {
+    "title": "Python and Statistics for Financial Analysis",
+    "institution": "The Hong Kong University of Science and Technology",
+    "hours": 12,
+    "category": "Data Analysis",
+    "logo": "assets/images/logos/hkust.png",
+    "credentialUrl": ""
+  },
+  {
+    "title": "Microsoft Power BI Data Analyst Certificate",
+    "institution": "Microsoft",
+    "hours": 60,
+    "category": "Business Intelligence",
+    "logo": "assets/images/logos/microsoft.png",
+    "credentialUrl": ""
+  }
+]
