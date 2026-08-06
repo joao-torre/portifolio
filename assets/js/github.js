@@ -35,6 +35,6 @@ async function fetchGithubRepos() {
       }));
   } catch (error) {
     console.error('[github.js] Falha ao buscar repositórios:', error);
-    return [];
+    return null;
   }
 }

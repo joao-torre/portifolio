@@ -43,6 +43,22 @@ section {
   color: var(--color-text);
 }
 
+.section-subtitle {
+  font-size: var(--fs-body);
+  color: var(--color-text-secondary);
+  max-width: 60ch;
+}
+
+.inline-link {
+  color: var(--color-accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--transition-fast);
+}
+
+.inline-link:hover {
+  border-color: var(--color-accent);
+}
+
 ::selection {
   background: var(--color-primary);
   color: var(--color-text);
