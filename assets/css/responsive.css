@@ -53,6 +53,10 @@
     position: static;
   }
 
+  .tech-stack__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .dashboard__kpis {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -85,6 +89,11 @@
 
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+
+  .tech-stack__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
   }
 
   .timeline {
