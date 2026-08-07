@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joaogabrieltorre.vercel.app/sitemap.xml

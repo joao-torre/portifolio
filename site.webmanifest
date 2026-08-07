@@ -1,0 +1,21 @@
+{
+  "name": "João Gabriel Torre — Data Analyst & Business Intelligence",
+  "short_name": "JG.Torre",
+  "description": "Transforming data into strategic decisions.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "icons": [
+    {
+      "src": "assets/images/icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
