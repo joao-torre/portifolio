@@ -38,4 +38,57 @@ O objetivo é demonstrar aplicações práticas envolvendo:
 
 ---
 
-## 📂 Estrutura do projeto
+## 🌐 Deploy
+
+O projeto utiliza hospedagem na **Vercel**.
+
+Por ser desenvolvido com HTML, CSS e JavaScript puro, não necessita de etapa de build.
+
+As atualizações são publicadas automaticamente a cada novo push na branch principal.
+
+---
+
+## 🎨 Design System
+
+O projeto utiliza um sistema visual próprio baseado em:
+
+- Variáveis CSS
+- Componentização de estilos
+- Responsividade
+- Animações personalizadas
+
+Principais tecnologias visuais:
+
+- Space Grotesk (títulos)
+- Inter (textos)
+- JetBrains Mono (dados e elementos técnicos)
+
+---
+
+## 📈 Objetivo
+
+Criar uma apresentação profissional que conecte minha experiência em:
+
+- Business Intelligence
+- Data Analytics
+- Engenharia de Dados
+- Automação
+- Análise de Crédito e Cobrança
+
+Aplicando tecnologia e análise de dados para transformar informações em decisões estratégicas.
+
+---
+
+## 👤 Autor
+
+**João Gabriel Gomes da Torre**
+
+🎓 Ciência de Dados para Negócios — FATEC Votorantim
+
+💼 Analista de Planejamento de Cobrança — Banco Afinz
+
+🔗 LinkedIn: https://linkedin.com/in/joaogabrieltorre
+
+💻 GitHub: https://github.com/joao-torre
+
+📧 Email: joaogabrieltorre@gmail.com
