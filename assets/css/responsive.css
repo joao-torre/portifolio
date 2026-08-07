@@ -96,6 +96,15 @@
     gap: var(--space-3);
   }
 
+  .tech-stack__category {
+    padding: 0.9rem;
+  }
+
+  .tech-stack .tag {
+    font-size: 0.7rem;
+    padding: 0.22rem 0.55rem;
+  }
+
   .timeline {
     padding-left: var(--space-4);
   }
