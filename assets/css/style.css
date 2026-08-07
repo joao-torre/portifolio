@@ -152,36 +152,13 @@ section {
   letter-spacing: -0.02em;
 }
 
-.hero__roles {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-1) var(--space-3);
-  margin-block: var(--space-3);
-  font-family: var(--font-mono);
-  font-size: var(--fs-body);
-  color: var(--color-text-secondary);
-}
-
-.hero__roles span {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.hero__roles span::before {
-  content: '';
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: var(--color-accent);
-}
-
 .hero__tagline {
   font-family: var(--font-display);
   font-size: var(--fs-display-md);
   font-weight: 500;
   line-height: var(--lh-tight);
   color: var(--color-text-secondary);
+  margin-top: var(--space-3);
   margin-bottom: var(--space-4);
   max-width: 620px;
 }
