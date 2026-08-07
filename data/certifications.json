@@ -22,5 +22,29 @@
     "category": "Business Intelligence & Data Analytics",
     "logo": "assets/images/logos/microsoft.png",
     "credentialUrl": ""
+  },
+  {
+    "title": "BI com Excel: Criando Bancos de Dados com Planilhas",
+    "institution": "Alura",
+    "hours": "",
+    "category": "Business Intelligence & Data Analytics",
+    "logo": "assets/images/logos/alura.png",
+    "credentialUrl": ""
+  },
+  {
+    "title": "BSC: Aplicado na Gestão de Portfólios",
+    "institution": "Alura",
+    "hours": "",
+    "category": "Administração e Gestão",
+    "logo": "assets/images/logos/alura.png",
+    "credentialUrl": ""
+  },
+  {
+    "title": "Lean Six Sigma Yellow Belt",
+    "institution": "FM2S Educação e Consultoria",
+    "hours": "",
+    "category": "Gestão de Processos & Melhoria Contínua",
+    "logo": "assets/images/logos/fm2s.png",
+    "credentialUrl": ""
   }
 ]

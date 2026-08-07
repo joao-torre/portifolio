@@ -44,7 +44,7 @@
               <div class="cert-card__logo" data-fallback="${badgeInitials}">
                 ${cert.logo ? `<img src="${cert.logo}" alt="${cert.institution}" loading="lazy" onerror="this.parentElement.classList.add('cert-card__logo--fallback'); this.outerHTML='<span>${badgeInitials}</span>';" />` : `<span>${badgeInitials}</span>`}
               </div>
-              <span class="tag cert-card__hours">${cert.hours}h</span>
+              ${cert.hours ? `<span class="tag cert-card__hours">${cert.hours}h</span>` : ''}
             </div>
             <h3 class="cert-card__title">${cert.title}</h3>
             <p class="cert-card__institution">${cert.institution}</p>
