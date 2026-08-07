@@ -352,15 +352,16 @@ body.is-loading {
 }
 
 .cert-card__logo {
-  width: 44px;
+  width: 56px;
   height: 44px;
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-bg-elevated);
+  background: #FFFFFF;
   border: 1px solid var(--color-border);
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .cert-card__logo img {
@@ -370,7 +371,11 @@ body.is-loading {
   padding: 6px;
 }
 
-.cert-card__logo span {
+.cert-card__logo--fallback {
+  background: var(--color-bg-elevated);
+}
+
+.cert-card__logo--fallback span {
   font-family: var(--font-display);
   font-size: var(--fs-body-sm);
   font-weight: 700;
