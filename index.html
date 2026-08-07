@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI</title>
+  <meta name="description" content="João Gabriel Gomes da Torre — Analista de Dados especializado em Crédito, Cobrança, Risco e Business Intelligence." />
+  <meta name="keywords" content="Data Analyst, Data Science, Credit Analytics, Risk Analytics, Cobrança, Business Intelligence, Power BI, Oracle SQL, Python" />
+  <meta name="author" content="João Gabriel Gomes da Torre" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#020617" />
+  <link rel="canonical" href="https://joaogabrieltorre.vercel.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI" />
+  <meta property="og:description" content="Transforming Data into Strategic Decisions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://joaogabrieltorre.vercel.app/" />
+  <meta property="og:image" content="https://joaogabrieltorre.vercel.app/assets/images/background/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI" />
+  <meta name="twitter:description" content="Transforming Data into Strategic Decisions." />
+  <meta name="twitter:image" content="https://joaogabrieltorre.vercel.app/assets/images/background/og-image.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Favicon / PWA -->
+  <link rel="icon" href="assets/images/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/images/icons/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "João Gabriel Gomes da Torre",
+    "jobTitle": "Analista de Planejamento de Cobrança",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Banco Afinz"
+    },
+    "url": "https://joaogabrieltorre.vercel.app/",
+    "email": "mailto:joaogabrieltorre@gmail.com",
+    "sameAs": [
+      "https://linkedin.com/in/joaogabrieltorre",
+      "https://github.com/joao-torre"
+    ],
+    "knowsAbout": ["Business Intelligence", "Power BI", "Oracle SQL", "Python", "Risk Analytics", "Data Analysis"]
+  }
+  </script>
+</head>
+<body class="is-loading">
+
+  <noscript>
+    <style>
+      .loader { display: none !important; }
+      body { overflow: auto !important; }
+      #network-canvas { display: none !important; }
+    </style>
+  </noscript>
+
+  <a href="#home" class="skip-link">Pular para o conteúdo</a>
+
+  <!-- ==================== LOADER ==================== -->
+  <div class="loader" data-loader aria-hidden="true">
+    <p class="loader__mark">João <span>Torre</span></p>
+    <div class="loader__bar"></div>
+  </div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" data-navbar>
+    <div class="navbar__inner">
+      <a href="#home" class="navbar__logo">João <span class="text-gradient">Torre</span></a>
+
+      <nav class="navbar__links" data-nav-links>
+        <a href="#home" class="navbar__link">Home</a>
+        <a href="#about" class="navbar__link">About</a>
+        <a href="#experience" class="navbar__link">Experience</a>
+        <a href="#projects" class="navbar__link">Projects</a>
+        <a href="#certifications" class="navbar__link">Certifications</a>
+        <a href="#contact" class="navbar__link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--primary navbar__cta">Let's Talk</a>
+
+      <button class="navbar__toggle" data-nav-toggle aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <canvas id="network-canvas" aria-hidden="true"></canvas>
+
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__name">
+            JOÃO GABRIEL<br />
+            <span class="text-gradient">GOMES DA TORRE</span>
+          </h1>
+
+          <p class="hero__tagline">
+            <span data-typing data-typing-text="Transforming Data into Strategic Decisions." data-typing-speed="42" data-typing-delay="600"></span>
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">Explore My Work</a>
+            <!-- TODO: apontar para o PDF real do currículo quando o arquivo for adicionado em /assets -->
+            <a href="#contact" class="btn btn--ghost">Let's Connect</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span class="scroll-indicator__label mono">Scroll</span>
+        <span class="scroll-indicator__line"></span>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__intro" data-reveal>
+            <div class="section-header">
+              <span class="section-eyebrow">// 01 — About</span>
+              <h2 class="section-title">Sobre mim</h2>
+            </div>
+            <p class="about__text">
+              🎓 Graduando em <strong>Ciência de Dados para Negócios</strong> pela FATEC Votorantim e atualmente <strong>Analista de Planejamento de Cobrança no Banco Afinz</strong>.
+            </p>
+            <p class="about__text">
+              💼 Minha atuação é voltada à <strong>transformação de dados em inteligência de negócio</strong>, desenvolvendo análises, dashboards e soluções que apoiam decisões estratégicas, aumentam a eficiência operacional e impulsionam resultados.
+            </p>
+            <p class="about__text">
+              📊 Possuo experiência na extração, tratamento e modelagem de dados, construção de indicadores executivos e automação de processos, utilizando <strong>Python, SQL, Power BI, Oracle Database, Amazon Athena e Amazon S3</strong> para transformar dados em informações confiáveis e acionáveis.
+            </p>
+            <p class="about__text">
+              Acredito que dados bem estruturados, aliados à análise e à tecnologia, são fundamentais para transformar informações em <strong>decisões mais inteligentes</strong>, otimizar processos e gerar resultados para o negócio.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card" data-reveal data-reveal-delay="0">
+              <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+              <h3 class="skill-card__title">Business Intelligence</h3>
+              <p class="skill-card__desc">Desenvolvimento de dashboards executivos, indicadores estratégicos e visualizações orientadas à tomada de decisão.</p>
+            </div>
+
+            <div class="skill-card" data-reveal data-reveal-delay="60">
+              <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>
+              <h3 class="skill-card__title">SQL &amp; Data Engineering</h3>
+              <p class="skill-card__desc">Extração, transformação e modelagem de dados utilizando Oracle Database, Amazon Athena e processos ETL.</p>
+            </div>
+
+            <div class="skill-card" data-reveal data-reveal-delay="120">
+              <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c-2.5 0-4 1-4 3v2H6c-2 0-3 1-3 3v2c0 2 1 3 3 3h2"/><path d="M12 21c2.5 0 4-1 4-3v-2h2c2 0 3-1 3-3v-2c0-2-1-3-3-3h-2"/><path d="M8 6h.01M16 18h.01"/></svg>
+              <h3 class="skill-card__title">Python &amp; Automation</h3>
+              <p class="skill-card__desc">Automação de processos analíticos, tratamento de dados e desenvolvimento de soluções utilizando Python.</p>
+            </div>
+
+            <div class="skill-card" data-reveal data-reveal-delay="180">
+              <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 17V10M12 17V7M16 17v-4"/></svg>
+              <h3 class="skill-card__title">Data Visualization</h3>
+              <p class="skill-card__desc">Construção de dashboards em Power BI com DAX, Power Query e boas práticas de visualização de dados.</p>
+            </div>
+
+            <div class="skill-card" data-reveal data-reveal-delay="240">
+              <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+              <h3 class="skill-card__title">Business &amp; Credit Analytics</h3>
+              <p class="skill-card__desc">Análise de carteiras, segmentação, recuperação, comportamento de clientes e indicadores de performance operacional.</p>
+            </div>
+
+            <div class="skill-card" data-reveal data-reveal-delay="300">
+              <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+              <h3 class="skill-card__title">Statistics &amp; Forecasting</h3>
+              <p class="skill-card__desc">Análise exploratória de dados, previsões, identificação de tendências e suporte ao planejamento estratégico.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---- Tech Stack categorizada ---- -->
+        <div class="tech-stack" data-reveal>
+          <div class="tech-stack__grid">
+            <div class="tech-stack__category">
+              <span class="tech-stack__label mono">Programming &amp; Query</span>
+              <div class="tech-stack__tags">
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+                <span class="tag">DAX</span>
+                <span class="tag">Power Query (M)</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+
+            <div class="tech-stack__category">
+              <span class="tech-stack__label mono">Business Intelligence</span>
+              <div class="tech-stack__tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">Executive Dashboards</span>
+                <span class="tag">Data Visualization</span>
+                <span class="tag">Dimensional Modeling</span>
+                <span class="tag">KPI Development</span>
+              </div>
+            </div>
+
+            <div class="tech-stack__category">
+              <span class="tech-stack__label mono">Data &amp; Cloud</span>
+              <div class="tech-stack__tags">
+                <span class="tag">Oracle Database</span>
+                <span class="tag">Amazon Athena</span>
+                <span class="tag">Amazon S3</span>
+                <span class="tag">ETL</span>
+                <span class="tag">Data Modeling</span>
+              </div>
+            </div>
+
+            <div class="tech-stack__category">
+              <span class="tech-stack__label mono">Analytics &amp; Statistics</span>
+              <div class="tech-stack__tags">
+                <span class="tag">Exploratory Data Analysis</span>
+                <span class="tag">Customer Segmentation</span>
+                <span class="tag">Forecasting</span>
+                <span class="tag">Machine Learning Fundamentals</span>
+                <span class="tag">Business Analytics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE — TIMELINE ==================== -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-eyebrow">// 02 — Experience</span>
+          <h2 class="section-title">Experiência Profissional</h2>
+        </div>
+
+        <ol class="timeline" data-timeline>
+          <!-- Preenchido dinamicamente por timeline.js a partir de data/experience.json -->
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==================== DASHBOARD (demo) ==================== -->
+    <section id="dashboard">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-eyebrow">// 02.1 — Live Demo</span>
+          <h2 class="section-title">Analytics na prática</h2>
+          <p class="dashboard__disclaimer">
+            Dados fictícios — demonstração do tipo de análise e visualização que aplico em indicadores de cobrança e performance operacional.
+          </p>
+        </div>
+
+        <div class="dashboard" data-reveal>
+          <!-- KPIs -->
+          <div class="dashboard__kpis">
+            <div class="kpi-card">
+              <span class="kpi-card__label">Taxa de Recuperação</span>
+              <span class="kpi-card__value" data-counter data-counter-to="34.8" data-counter-suffix="%">0%</span>
+              <span class="kpi-card__delta kpi-card__delta--up">↑ 2.3pp vs. mês anterior</span>
+            </div>
+            <div class="kpi-card">
+              <span class="kpi-card__label">Carteiras Ativas</span>
+              <span class="kpi-card__value" data-counter data-counter-to="128" data-counter-suffix="k">0k</span>
+              <span class="kpi-card__delta">contratos em régua</span>
+            </div>
+            <div class="kpi-card">
+              <span class="kpi-card__label">Eficiência Operacional</span>
+              <span class="kpi-card__value" data-counter data-counter-to="91.2" data-counter-suffix="%">0%</span>
+              <span class="kpi-card__delta kpi-card__delta--up">↑ 1.2pp vs. mês anterior</span>
+            </div>
+            <div class="kpi-card">
+              <span class="kpi-card__label">SLA Médio de Contato</span>
+              <span class="kpi-card__value" data-counter data-counter-to="2.4" data-counter-suffix="d">0d</span>
+              <span class="kpi-card__delta kpi-card__delta--down">↓ 0.3d vs. mês anterior</span>
+            </div>
+          </div>
+
+          <!-- Charts -->
+          <div class="dashboard__charts">
+            <div class="chart-panel">
+              <div class="chart-panel__header">
+                <h3>Recuperação por Faixa de Atraso</h3>
+                <span class="mono chart-panel__tag">aging</span>
+              </div>
+              <div data-chart="bar" data-chart-values="62,41,28,15,6" data-chart-labels="1-30d,31-60d,61-90d,91-180d,180d+"></div>
+            </div>
+
+            <div class="chart-panel">
+              <div class="chart-panel__header">
+                <h3>Evolução da Eficiência Operacional</h3>
+                <span class="mono chart-panel__tag">6 meses</span>
+              </div>
+              <div data-chart="line" data-chart-values="82,85,84,88,90,91.2" data-chart-labels="Jan,Fev,Mar,Abr,Mai,Jun"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-eyebrow">// 03 — Projects</span>
+          <h2 class="section-title">Projetos</h2>
+          <p class="section-subtitle">
+            Projetos desenvolvidos para demonstrar conhecimentos em Business Intelligence, Analytics, Engenharia de Dados e Automação. Cada projeto representa aplicações práticas utilizando tecnologias empregadas no mercado para resolver problemas de negócio por meio de dados.
+          </p>
+        </div>
+
+        <div class="projects-grid" data-projects>
+          <!-- Preenchido dinamicamente por projects.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION & CERTIFICATIONS ==================== -->
+    <section id="certifications">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-eyebrow">// 04 — Education</span>
+          <h2 class="section-title">Formação &amp; Certificações</h2>
+        </div>
+
+        <!-- ---- Formação acadêmica ---- -->
+        <div class="certifications-grid certifications-grid--education" data-reveal>
+          <article class="cert-card">
+            <div class="cert-card__header">
+              <div class="cert-card__logo">
+                <img src="assets/images/logos/fatec.png" alt="FATEC Votorantim" loading="lazy" onerror="this.parentElement.classList.add('cert-card__logo--fallback'); this.outerHTML='<span>FV</span>';" />
+              </div>
+              <span class="tag cert-card__hours">Em andamento</span>
+            </div>
+            <h3 class="cert-card__title">Ciência de Dados para Negócios</h3>
+            <p class="cert-card__institution">FATEC Votorantim</p>
+            <span class="cert-card__category mono">Graduação Tecnológica</span>
+          </article>
+        </div>
+
+        <!-- ---- Certificações ---- -->
+        <div class="certifications-grid" data-certifications>
+          <!-- Preenchido dinamicamente por certifications.js a partir de data/certifications.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="section-header" data-reveal>
+            <span class="section-eyebrow">// 05 — Contact</span>
+            <h2 class="section-title contact__title">Vamos conversar.</h2>
+          </div>
+
+          <div class="contact__actions" data-reveal data-reveal-delay="80">
+            <button class="btn btn--primary" data-copy-email data-email="joaogabrieltorre@gmail.com">
+              <span data-copy-label>joaogabrieltorre@gmail.com</span>
+            </button>
+            <a href="https://linkedin.com/in/joaogabrieltorre" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/joao-torre" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+
+          <p class="contact__phone mono" data-reveal data-reveal-delay="140">(15) 99714-5415 · Sorocaba, SP</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__brand">João Torre</span>
+
+      <div class="footer__socials">
+        <a href="https://github.com/joao-torre" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/joaogabrieltorre" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:joaogabrieltorre@gmail.com">E-mail</a>
+      </div>
+
+      <span class="footer__meta">© <span data-current-year></span> João Gabriel Torre. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/typing.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/cursor.js"></script>
+  <script src="assets/js/github.js"></script>
+  <script src="assets/js/timeline.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/certifications.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
