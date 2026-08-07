@@ -1,6 +1,6 @@
 # João Gabriel Torre — Portfolio
 
-Site pessoal de João Gabriel Gomes da Torre, Data Analyst focado em Business Intelligence e Risk Analytics.
+Site pessoal de João Gabriel Gomes da Torre, Data Analytics com foco em Crédito, Cobrança, Risco e Business Intelligence.
 
 **Conceito:** Transforming Data into Strategic Decisions.
 
