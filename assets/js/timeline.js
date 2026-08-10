@@ -42,6 +42,7 @@
             </div>
             <h3 class="timeline__role">${localized.role}</h3>
             <p class="timeline__company">${exp.company}</p>
+            ${localized.summary ? `<p class="timeline__summary">${localized.summary}</p>` : ''}
             <ul class="timeline__highlights">${highlights}</ul>
             <div class="timeline__stack">${stackTags}</div>
           </li>

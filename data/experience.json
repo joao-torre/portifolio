@@ -25,6 +25,7 @@
     "pt": {
       "role": "Analista de Planejamento de Cobrança",
       "period": "Jun/2026 — Atual",
+      "summary": "Atuação no desenvolvimento de soluções analíticas e indicadores para suporte à tomada de decisão, otimização operacional e evolução da performance das operações de cobrança.",
       "highlights": [
         "Desenvolvimento de dashboards executivos em Power BI para monitoramento de performance operacional e indicadores estratégicos.",
         "Extração, tratamento e modelagem de dados utilizando Oracle Database, Amazon Athena e Amazon S3.",
@@ -37,6 +38,7 @@
     "en": {
       "role": "Collections Planning Analyst",
       "period": "Jun 2026 — Present",
+      "summary": "Developing analytical solutions and KPIs to support decision-making, operational optimization and performance improvement across collections operations.",
       "highlights": [
         "Developing executive Power BI dashboards to monitor operational performance and strategic KPIs.",
         "Extracting, transforming and modeling data using Oracle Database, Amazon Athena and Amazon S3.",
@@ -69,6 +71,7 @@
     "pt": {
       "role": "Assistente de Operações",
       "period": "Jun/2024 — Mai/2026",
+      "summary": "Atuação no planejamento e suporte às operações, com foco no acompanhamento de campanhas, gestão operacional e desenvolvimento de análises para melhoria contínua da performance.",
       "highlights": [
         "Gestão operacional de campanhas utilizando Genesys Cloud CX.",
         "Parametrização de filas, estratégias de discagem e regras de distribuição operacional.",
@@ -80,6 +83,7 @@
     "en": {
       "role": "Operations Assistant",
       "period": "Jun 2024 — May 2026",
+      "summary": "Planning and support for operations, focused on campaign monitoring, operational management and analysis development for continuous performance improvement.",
       "highlights": [
         "Operational management of campaigns using Genesys Cloud CX.",
         "Parameterization of queues, dialing strategies and operational distribution rules.",
@@ -106,6 +110,7 @@
     "pt": {
       "role": "Jovem Aprendiz",
       "period": "Fev/2023 — Mai/2024",
+      "summary": "Suporte operacional com foco em organização de informações e indicadores.",
       "highlights": [
         "Apoio às rotinas operacionais com foco em organização, tratamento e acompanhamento de dados.",
         "Criação e manutenção de planilhas e dashboards para monitoramento de indicadores."
@@ -114,6 +119,7 @@
     "en": {
       "role": "Apprentice",
       "period": "Feb 2023 — May 2024",
+      "summary": "Operational support focused on organizing information and monitoring KPIs.",
       "highlights": [
         "Supporting operational routines focused on data organization, processing and monitoring.",
         "Creating and maintaining spreadsheets and dashboards for KPI monitoring."

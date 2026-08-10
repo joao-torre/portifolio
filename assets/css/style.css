@@ -360,6 +360,13 @@ section {
   margin-bottom: var(--space-2);
 }
 
+.timeline__summary {
+  color: var(--color-text-secondary);
+  font-size: var(--fs-body-sm);
+  max-width: 68ch;
+  margin-bottom: var(--space-2);
+}
+
 .timeline__highlights {
   display: flex;
   flex-direction: column;
