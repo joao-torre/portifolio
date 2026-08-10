@@ -11,7 +11,7 @@
 
   async function loadExperience() {
     try {
-      const response = await fetch('data/experience.json');
+      const response = await fetch('data/experience.json?v=8', { cache: 'no-store' });
       if (!response.ok) throw new Error(`Falha ao carregar experience.json (${response.status})`);
 
       const experiences = await response.json();
