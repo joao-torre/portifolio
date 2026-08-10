@@ -93,7 +93,7 @@
       const email = copyBtn.getAttribute('data-email');
       try {
         await navigator.clipboard.writeText(email);
-        if (label) label.textContent = 'E-mail copiado ✓';
+        if (label) label.textContent = window.portfolioI18n?.t('dynamic.copied') || 'E-mail copiado ✓';
       } catch {
         if (label) label.textContent = email;
         window.location.href = `mailto:${email}`;

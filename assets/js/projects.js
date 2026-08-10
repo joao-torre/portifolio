@@ -39,9 +39,9 @@
 
     const details = hasCurated
       ? `
-        ${curated.objective ? `<p class="project-card__row"><strong>Objetivo:</strong> ${curated.objective}</p>` : ''}
-        ${curated.challenges ? `<p class="project-card__row"><strong>Desafios:</strong> ${curated.challenges}</p>` : ''}
-        ${curated.learnings ? `<p class="project-card__row"><strong>Aprendizados:</strong> ${curated.learnings}</p>` : ''}
+        ${curated.objective ? `<p class="project-card__row"><strong>${window.portfolioI18n?.t("dynamic.objective") || "Objetivo:"}</strong> ${curated.objective}</p>` : ''}
+        ${curated.challenges ? `<p class="project-card__row"><strong>${window.portfolioI18n?.t("dynamic.challenges") || "Desafios:"}</strong> ${curated.challenges}</p>` : ''}
+        ${curated.learnings ? `<p class="project-card__row"><strong>${window.portfolioI18n?.t("dynamic.learnings") || "Aprendizados:"}</strong> ${curated.learnings}</p>` : ''}
       `
       : `<p class="project-card__row">${repo.description}</p>`;
 
@@ -54,7 +54,7 @@
           <div class="project-card__details">${details}</div>
           <div class="project-card__footer">
             ${repo.stars ? `<span class="mono project-card__stars">★ ${repo.stars}</span>` : '<span></span>'}
-            <a href="${repo.url}" target="_blank" rel="noopener noreferrer" class="btn btn--ghost btn--sm">Ver no GitHub</a>
+            <a href="${repo.url}" target="_blank" rel="noopener noreferrer" class="btn btn--ghost btn--sm">${window.portfolioI18n?.t("dynamic.viewGithub") || "Ver no GitHub"}</a>
           </div>
         </div>
       </article>
@@ -64,7 +64,7 @@
   function emptyState() {
     grid.innerHTML = `
       <div class="projects-empty">
-        <p>Nenhum repositório público encontrado ainda. Novos projetos aparecem aqui automaticamente assim que publicados no
+        <p>${window.portfolioI18n?.t("dynamic.emptyProjects") || "Nenhum repositório público encontrado ainda. Novos projetos aparecem aqui automaticamente assim que publicados no"}
           <a href="https://github.com/joao-torre" target="_blank" rel="noopener noreferrer" class="inline-link">GitHub</a>.
         </p>
       </div>
@@ -74,8 +74,8 @@
   function errorState() {
     grid.innerHTML = `
       <div class="projects-empty">
-        <p>Não foi possível carregar os projetos do GitHub agora (limite de requisições da API pública costuma ser o motivo).
-          Veja diretamente em <a href="https://github.com/joao-torre" target="_blank" rel="noopener noreferrer" class="inline-link">github.com/joao-torre</a>.
+        <p>${window.portfolioI18n?.t("dynamic.errorProjects") || "Não foi possível carregar os projetos do GitHub agora."}
+          <a href="https://github.com/joao-torre" target="_blank" rel="noopener noreferrer" class="inline-link">github.com/joao-torre</a>.
         </p>
       </div>
     `;
@@ -124,4 +124,5 @@
   }
 
   document.addEventListener('DOMContentLoaded', init);
+  window.addEventListener('languagechange', init);
 })();

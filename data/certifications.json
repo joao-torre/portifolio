@@ -5,7 +5,11 @@
     "hours": 40,
     "category": "Risk Management • Enterprise Risk • Financial Risk",
     "logo": "assets/images/logos/nyif.png",
-    "credentialUrl": ""
+    "credentialUrl": "",
+    "ptCategory": "Gestão de Riscos • Risco Empresarial • Risco Financeiro",
+    "enCategory": "Risk Management • Enterprise Risk • Financial Risk",
+    "ptTitle": "Especialização em Gestão de Riscos",
+    "enTitle": "Risk Management Specialization"
   },
   {
     "title": "Python and Statistics for Financial Analysis",
@@ -13,7 +17,11 @@
     "hours": 12,
     "category": "Python • Statistics • Financial Analytics",
     "logo": "assets/images/logos/hkust.png",
-    "credentialUrl": ""
+    "credentialUrl": "",
+    "ptCategory": "Python • Estatística • Análise Financeira",
+    "enCategory": "Python • Statistics • Financial Analytics",
+    "ptTitle": "Python e Estatística para Análise Financeira",
+    "enTitle": "Python and Statistics for Financial Analysis"
   },
   {
     "title": "Microsoft Power BI Data Analyst Certificate",
@@ -21,7 +29,11 @@
     "hours": 60,
     "category": "Power BI • DAX • Data Modeling • Business Intelligence",
     "logo": "assets/images/logos/microsoft.png",
-    "credentialUrl": ""
+    "credentialUrl": "",
+    "ptCategory": "Power BI • DAX • Modelagem de Dados • Business Intelligence",
+    "enCategory": "Power BI • DAX • Data Modeling • Business Intelligence",
+    "ptTitle": "Certificado Microsoft Power BI Data Analyst",
+    "enTitle": "Microsoft Power BI Data Analyst Certificate"
   },
   {
     "title": "BI with Excel: Creating Databases with Spreadsheets",
@@ -29,7 +41,11 @@
     "hours": "",
     "category": "Business Intelligence & Data Analytics",
     "logo": "assets/images/logos/alura.png",
-    "credentialUrl": ""
+    "credentialUrl": "",
+    "ptCategory": "Business Intelligence & Análise de Dados",
+    "enCategory": "Business Intelligence & Data Analytics",
+    "ptTitle": "BI com Excel: Criando Bancos de Dados com Planilhas",
+    "enTitle": "BI with Excel: Creating Databases with Spreadsheets"
   },
   {
     "title": "BSC: Applied to Portfolio Management",
@@ -37,7 +53,11 @@
     "hours": "",
     "category": "Business Administration & Management",
     "logo": "assets/images/logos/alura.png",
-    "credentialUrl": ""
+    "credentialUrl": "",
+    "ptCategory": "Administração & Gestão",
+    "enCategory": "Business Administration & Management",
+    "ptTitle": "BSC: Aplicado à Gestão de Portfólios",
+    "enTitle": "BSC: Applied to Portfolio Management"
   },
   {
     "title": "Lean Six Sigma Yellow Belt",
@@ -45,6 +65,10 @@
     "hours": "",
     "category": "Process Management & Continuous Improvement",
     "logo": "assets/images/logos/fm2s.png",
-    "credentialUrl": ""
+    "credentialUrl": "",
+    "ptCategory": "Gestão de Processos & Melhoria Contínua",
+    "enCategory": "Process Management & Continuous Improvement",
+    "ptTitle": "Lean Six Sigma Yellow Belt",
+    "enTitle": "Lean Six Sigma Yellow Belt"
   }
 ]

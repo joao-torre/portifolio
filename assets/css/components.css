@@ -552,3 +552,49 @@ body.is-loading {
   font-size: var(--fs-caption);
   color: var(--color-text-muted);
 }
+
+
+/* ---- Language switcher ---- */
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: var(--space-2);
+  margin-right: var(--space-2);
+  padding: 0.2rem;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-full);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.language-switcher__btn {
+  border: 0;
+  background: transparent;
+  color: var(--color-text-muted);
+  font: 600 0.72rem var(--font-mono);
+  letter-spacing: 0.04em;
+  padding: 0.32rem 0.48rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.language-switcher__btn:hover,
+.language-switcher__btn.is-active {
+  background: var(--color-primary);
+  color: var(--color-text);
+}
+
+.language-switcher__divider {
+  color: var(--color-text-muted);
+  font-size: 0.7rem;
+  user-select: none;
+}
+
+@media (max-width: 960px) {
+  .language-switcher {
+    margin-right: 0.35rem;
+  }
+}

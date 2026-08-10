@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-language="pt">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI</title>
-  <meta name="description" content="João Gabriel Gomes da Torre — Analista de Dados especializado em Crédito, Cobrança, Risco e Business Intelligence." />
+  <title data-i18n="meta.title">João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI</title>
+  <meta name="description" data-i18n-attr="content:meta.description" content="João Gabriel Gomes da Torre — Analista de Dados especializado em Crédito, Cobrança, Risco e Business Intelligence." />
   <meta name="keywords" content="Data Analyst, Data Science, Credit Analytics, Risk Analytics, Cobrança, Business Intelligence, Power BI, Oracle SQL, Python" />
   <meta name="author" content="João Gabriel Gomes da Torre" />
   <meta name="robots" content="index, follow" />
@@ -12,19 +12,19 @@
   <link rel="canonical" href="https://joaogabrieltorre.vercel.app/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI" />
-  <meta property="og:description" content="Transforming Data into Strategic Decisions." />
+  <meta property="og:title" data-i18n-attr="content:meta.title" content="João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI" />
+  <meta property="og:description" data-i18n-attr="content:hero.tagline" content="Transforming Data into Strategic Decisions." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://joaogabrieltorre.vercel.app/" />
   <meta property="og:image" content="https://joaogabrieltorre.vercel.app/assets/images/background/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:locale" data-i18n-attr="content:meta.locale" content="pt_BR" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI" />
-  <meta name="twitter:description" content="Transforming Data into Strategic Decisions." />
+  <meta name="twitter:title" data-i18n-attr="content:meta.title" content="João Gabriel Torre — Data Analytics, Crédito &amp; Risco | BI" />
+  <meta name="twitter:description" data-i18n-attr="content:hero.tagline" content="Transforming Data into Strategic Decisions." />
   <meta name="twitter:image" content="https://joaogabrieltorre.vercel.app/assets/images/background/og-image.jpg" />
 
   <!-- Fonts -->
@@ -77,7 +77,7 @@
     </style>
   </noscript>
 
-  <a href="#home" class="skip-link">Pular para o conteúdo</a>
+  <a href="#home" class="skip-link" data-i18n="nav.skip">Pular para o conteúdo</a>
 
   <!-- ==================== LOADER ==================== -->
   <div class="loader" data-loader aria-hidden="true">
@@ -91,17 +91,19 @@
       <a href="#home" class="navbar__logo">João <span class="text-gradient">Torre</span></a>
 
       <nav class="navbar__links" data-nav-links>
-        <a href="#home" class="navbar__link">Home</a>
-        <a href="#about" class="navbar__link">About</a>
-        <a href="#experience" class="navbar__link">Experience</a>
-        <a href="#projects" class="navbar__link">Projects</a>
-        <a href="#certifications" class="navbar__link">Certifications</a>
-        <a href="#contact" class="navbar__link">Contact</a>
+        <a href="#home" class="navbar__link" data-i18n="nav.home">Home</a>
+        <a href="#about" class="navbar__link" data-i18n="nav.about">About</a>
+        <a href="#experience" class="navbar__link" data-i18n="nav.experience">Experience</a>
+        <a href="#projects" class="navbar__link" data-i18n="nav.projects">Projects</a>
+        <a href="#certifications" class="navbar__link" data-i18n="nav.certifications">Certifications</a>
+        <a href="#contact" class="navbar__link" data-i18n="nav.contact">Contact</a>
       </nav>
 
-      <a href="#contact" class="btn btn--primary navbar__cta">Let's Talk</a>
+      <a href="#contact" class="btn btn--primary navbar__cta" data-i18n="nav.letsTalk">Let's Talk</a>
 
-      <button class="navbar__toggle" data-nav-toggle aria-label="Abrir menu" aria-expanded="false">
+      <div class="language-switcher" role="group" aria-label="Language"><button type="button" class="language-switcher__btn is-active" data-language-option="pt">PT</button><span class="language-switcher__divider">/</span><button type="button" class="language-switcher__btn" data-language-option="en">EN</button></div>
+
+      <button class="navbar__toggle" data-nav-toggle aria-label="Abrir menu" data-i18n-attr="aria-label:nav.menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -121,19 +123,19 @@
           </h1>
 
           <p class="hero__tagline">
-            <span data-typing data-typing-text="Transforming Data into Strategic Decisions." data-typing-speed="42" data-typing-delay="600"></span>
+            <span data-typing data-typing-key="hero.tagline" data-typing-text="Transforming Data into Strategic Decisions." data-typing-speed="42" data-typing-delay="600"></span>
           </p>
 
           <div class="hero__actions">
-            <a href="#projects" class="btn btn--primary">Explore My Work</a>
+            <a href="#projects" class="btn btn--primary" data-i18n="hero.explore">Explore My Work</a>
             <!-- TODO: apontar para o PDF real do currículo quando o arquivo for adicionado em /assets -->
-            <a href="#contact" class="btn btn--ghost">Let's Connect</a>
+            <a href="#contact" class="btn btn--ghost" data-i18n="hero.connect">Let's Connect</a>
           </div>
         </div>
       </div>
 
       <div class="scroll-indicator">
-        <span class="scroll-indicator__label mono">Scroll</span>
+        <span class="scroll-indicator__label mono" data-i18n="hero.scroll">Scroll</span>
         <span class="scroll-indicator__line"></span>
       </div>
     </section>
@@ -144,19 +146,19 @@
         <div class="about__grid">
           <div class="about__intro" data-reveal>
             <div class="section-header">
-              <span class="section-eyebrow">// 01 — About</span>
-              <h2 class="section-title">Sobre mim</h2>
+              <span class="section-eyebrow" data-i18n="section.aboutEyebrow">// 01 — About</span>
+              <h2 class="section-title" data-i18n="about.title">Sobre mim</h2>
             </div>
-            <p class="about__text">
+            <p class="about__text" data-i18n="about.p1">
               🎓 Graduando em <strong>Ciência de Dados para Negócios</strong> pela FATEC Votorantim e atualmente <strong>Analista de Planejamento de Cobrança no Banco Afinz</strong>.
             </p>
-            <p class="about__text">
+            <p class="about__text" data-i18n="about.p2">
               💼 Minha atuação é voltada à <strong>transformação de dados em inteligência de negócio</strong>, desenvolvendo análises, dashboards e soluções que apoiam decisões estratégicas, aumentam a eficiência operacional e impulsionam resultados.
             </p>
-            <p class="about__text">
+            <p class="about__text" data-i18n="about.p3">
               📊 Possuo experiência na extração, tratamento e modelagem de dados, construção de indicadores executivos e automação de processos, utilizando <strong>Python, SQL, Power BI, Oracle Database, Amazon Athena e Amazon S3</strong> para transformar dados em informações confiáveis e acionáveis.
             </p>
-            <p class="about__text">
+            <p class="about__text" data-i18n="about.p4">
               Acredito que dados bem estruturados, aliados à análise e à tecnologia, são fundamentais para transformar informações em <strong>decisões mais inteligentes</strong>, otimizar processos e gerar resultados para o negócio.
             </p>
           </div>
@@ -164,38 +166,38 @@
           <div class="skills-grid">
             <div class="skill-card" data-reveal data-reveal-delay="0">
               <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
-              <h3 class="skill-card__title">Business Intelligence</h3>
-              <p class="skill-card__desc">Desenvolvimento de dashboards executivos, indicadores estratégicos e visualizações orientadas à tomada de decisão.</p>
+              <h3 class="skill-card__title" data-i18n="skills.bi.title">Business Intelligence</h3>
+              <p class="skill-card__desc" data-i18n="skills.bi.desc">Desenvolvimento de dashboards executivos, indicadores estratégicos e visualizações orientadas à tomada de decisão.</p>
             </div>
 
             <div class="skill-card" data-reveal data-reveal-delay="60">
               <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>
-              <h3 class="skill-card__title">SQL &amp; Data Engineering</h3>
-              <p class="skill-card__desc">Extração, transformação e modelagem de dados utilizando Oracle Database, Amazon Athena e processos ETL.</p>
+              <h3 class="skill-card__title" data-i18n="skills.sql.title">SQL &amp; Data Engineering</h3>
+              <p class="skill-card__desc" data-i18n="skills.sql.desc">Extração, transformação e modelagem de dados utilizando Oracle Database, Amazon Athena e processos ETL.</p>
             </div>
 
             <div class="skill-card" data-reveal data-reveal-delay="120">
               <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c-2.5 0-4 1-4 3v2H6c-2 0-3 1-3 3v2c0 2 1 3 3 3h2"/><path d="M12 21c2.5 0 4-1 4-3v-2h2c2 0 3-1 3-3v-2c0-2-1-3-3-3h-2"/><path d="M8 6h.01M16 18h.01"/></svg>
-              <h3 class="skill-card__title">Python &amp; Automation</h3>
-              <p class="skill-card__desc">Automação de processos analíticos, tratamento de dados e desenvolvimento de soluções utilizando Python.</p>
+              <h3 class="skill-card__title" data-i18n="skills.python.title">Python &amp; Automation</h3>
+              <p class="skill-card__desc" data-i18n="skills.python.desc">Automação de processos analíticos, tratamento de dados e desenvolvimento de soluções utilizando Python.</p>
             </div>
 
             <div class="skill-card" data-reveal data-reveal-delay="180">
               <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 17V10M12 17V7M16 17v-4"/></svg>
-              <h3 class="skill-card__title">Data Visualization</h3>
-              <p class="skill-card__desc">Construção de dashboards em Power BI com DAX, Power Query e boas práticas de visualização de dados.</p>
+              <h3 class="skill-card__title" data-i18n="skills.visual.title">Data Visualization</h3>
+              <p class="skill-card__desc" data-i18n="skills.visual.desc">Construção de dashboards em Power BI com DAX, Power Query e boas práticas de visualização de dados.</p>
             </div>
 
             <div class="skill-card" data-reveal data-reveal-delay="240">
               <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
-              <h3 class="skill-card__title">Business &amp; Credit Analytics</h3>
-              <p class="skill-card__desc">Análise de carteiras, segmentação, recuperação, comportamento de clientes e indicadores de performance operacional.</p>
+              <h3 class="skill-card__title" data-i18n="skills.credit.title">Business &amp; Credit Analytics</h3>
+              <p class="skill-card__desc" data-i18n="skills.credit.desc">Análise de carteiras, segmentação, recuperação, comportamento de clientes e indicadores de performance operacional.</p>
             </div>
 
             <div class="skill-card" data-reveal data-reveal-delay="300">
               <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
-              <h3 class="skill-card__title">Statistics &amp; Forecasting</h3>
-              <p class="skill-card__desc">Análise exploratória de dados, previsões, identificação de tendências e suporte ao planejamento estratégico.</p>
+              <h3 class="skill-card__title" data-i18n="skills.stats.title">Statistics &amp; Forecasting</h3>
+              <p class="skill-card__desc" data-i18n="skills.stats.desc">Análise exploratória de dados, previsões, identificação de tendências e suporte ao planejamento estratégico.</p>
             </div>
           </div>
         </div>
@@ -204,7 +206,7 @@
         <div class="tech-stack" data-reveal>
           <div class="tech-stack__grid">
             <div class="tech-stack__category">
-              <span class="tech-stack__label mono">Programming &amp; Query</span>
+              <span class="tech-stack__label mono" data-i18n="tech.programming">Programming &amp; Query</span>
               <div class="tech-stack__tags">
                 <span class="tag">Python</span>
                 <span class="tag">SQL</span>
@@ -215,35 +217,35 @@
             </div>
 
             <div class="tech-stack__category">
-              <span class="tech-stack__label mono">Business Intelligence</span>
+              <span class="tech-stack__label mono" data-i18n="tech.bi">Business Intelligence</span>
               <div class="tech-stack__tags">
                 <span class="tag">Power BI</span>
-                <span class="tag">Executive Dashboards</span>
-                <span class="tag">Data Visualization</span>
-                <span class="tag">Dimensional Modeling</span>
-                <span class="tag">KPI Development</span>
+                <span class="tag" data-i18n="tech.executive">Executive Dashboards</span>
+                <span class="tag" data-i18n="tech.visual">Data Visualization</span>
+                <span class="tag" data-i18n="tech.dimension">Dimensional Modeling</span>
+                <span class="tag" data-i18n="tech.kpi">KPI Development</span>
               </div>
             </div>
 
             <div class="tech-stack__category">
-              <span class="tech-stack__label mono">Data &amp; Cloud</span>
+              <span class="tech-stack__label mono" data-i18n="tech.cloud">Data &amp; Cloud</span>
               <div class="tech-stack__tags">
                 <span class="tag">Oracle Database</span>
                 <span class="tag">Amazon Athena</span>
                 <span class="tag">Amazon S3</span>
                 <span class="tag">ETL</span>
-                <span class="tag">Data Modeling</span>
+                <span class="tag" data-i18n="tech.datamodel">Data Modeling</span>
               </div>
             </div>
 
             <div class="tech-stack__category">
-              <span class="tech-stack__label mono">Analytics &amp; Statistics</span>
+              <span class="tech-stack__label mono" data-i18n="tech.analytics">Analytics &amp; Statistics</span>
               <div class="tech-stack__tags">
-                <span class="tag">Exploratory Data Analysis</span>
-                <span class="tag">Customer Segmentation</span>
-                <span class="tag">Forecasting</span>
-                <span class="tag">Machine Learning Fundamentals</span>
-                <span class="tag">Business Analytics</span>
+                <span class="tag" data-i18n="tech.eda">Exploratory Data Analysis</span>
+                <span class="tag" data-i18n="tech.segment">Customer Segmentation</span>
+                <span class="tag" data-i18n="tech.forecast">Forecasting</span>
+                <span class="tag" data-i18n="tech.ml">Machine Learning Fundamentals</span>
+                <span class="tag" data-i18n="tech.business">Business Analytics</span>
               </div>
             </div>
           </div>
@@ -255,8 +257,8 @@
     <section id="experience">
       <div class="container">
         <div class="section-header" data-reveal>
-          <span class="section-eyebrow">// 02 — Experience</span>
-          <h2 class="section-title">Experiência Profissional</h2>
+          <span class="section-eyebrow" data-i18n="section.experienceEyebrow">// 02 — Experience</span>
+          <h2 class="section-title" data-i18n="section.experienceTitle">Experiência Profissional</h2>
         </div>
 
         <ol class="timeline" data-timeline>
@@ -269,9 +271,9 @@
     <section id="dashboard">
       <div class="container">
         <div class="section-header" data-reveal>
-          <span class="section-eyebrow">// 02.1 — Live Demo</span>
-          <h2 class="section-title">Analytics na prática</h2>
-          <p class="dashboard__disclaimer">
+          <span class="section-eyebrow" data-i18n="section.demoEyebrow">// 02.1 — Live Demo</span>
+          <h2 class="section-title" data-i18n="dashboard.title">Analytics na prática</h2>
+          <p class="dashboard__disclaimer" data-i18n="dashboard.disclaimer">
             Dados fictícios — demonstração do tipo de análise e visualização que aplico em indicadores de cobrança e performance operacional.
           </p>
         </div>
@@ -280,24 +282,24 @@
           <!-- KPIs -->
           <div class="dashboard__kpis">
             <div class="kpi-card">
-              <span class="kpi-card__label">Taxa de Recuperação</span>
+              <span class="kpi-card__label" data-i18n="dashboard.recovery">Taxa de Recuperação</span>
               <span class="kpi-card__value" data-counter data-counter-to="34.8" data-counter-suffix="%">0%</span>
-              <span class="kpi-card__delta kpi-card__delta--up">↑ 2.3pp vs. mês anterior</span>
+              <span class="kpi-card__delta kpi-card__delta--up" data-i18n="dashboard.delta23">↑ 2.3pp vs. mês anterior</span>
             </div>
             <div class="kpi-card">
-              <span class="kpi-card__label">Carteiras Ativas</span>
+              <span class="kpi-card__label" data-i18n="dashboard.activePortfolios">Carteiras Ativas</span>
               <span class="kpi-card__value" data-counter data-counter-to="128" data-counter-suffix="k">0k</span>
-              <span class="kpi-card__delta">contratos em régua</span>
+              <span class="kpi-card__delta" data-i18n="dashboard.contracts">contratos em régua</span>
             </div>
             <div class="kpi-card">
-              <span class="kpi-card__label">Eficiência Operacional</span>
+              <span class="kpi-card__label" data-i18n="dashboard.efficiency">Eficiência Operacional</span>
               <span class="kpi-card__value" data-counter data-counter-to="91.2" data-counter-suffix="%">0%</span>
-              <span class="kpi-card__delta kpi-card__delta--up">↑ 1.2pp vs. mês anterior</span>
+              <span class="kpi-card__delta kpi-card__delta--up" data-i18n="dashboard.delta12">↑ 1.2pp vs. mês anterior</span>
             </div>
             <div class="kpi-card">
-              <span class="kpi-card__label">SLA Médio de Contato</span>
+              <span class="kpi-card__label" data-i18n="dashboard.sla">SLA Médio de Contato</span>
               <span class="kpi-card__value" data-counter data-counter-to="2.4" data-counter-suffix="d">0d</span>
-              <span class="kpi-card__delta kpi-card__delta--down">↓ 0.3d vs. mês anterior</span>
+              <span class="kpi-card__delta kpi-card__delta--down" data-i18n="dashboard.delta03">↓ 0.3d vs. mês anterior</span>
             </div>
           </div>
 
@@ -305,7 +307,7 @@
           <div class="dashboard__charts">
             <div class="chart-panel">
               <div class="chart-panel__header">
-                <h3>Recuperação por Faixa de Atraso</h3>
+                <h3 data-i18n="dashboard.agingTitle">Recuperação por Faixa de Atraso</h3>
                 <span class="mono chart-panel__tag">aging</span>
               </div>
               <div data-chart="bar" data-chart-values="62,41,28,15,6" data-chart-labels="1-30d,31-60d,61-90d,91-180d,180d+"></div>
@@ -313,8 +315,8 @@
 
             <div class="chart-panel">
               <div class="chart-panel__header">
-                <h3>Evolução da Eficiência Operacional</h3>
-                <span class="mono chart-panel__tag">6 meses</span>
+                <h3 data-i18n="dashboard.efficiencyTitle">Evolução da Eficiência Operacional</h3>
+                <span class="mono chart-panel__tag" data-i18n="dashboard.sixMonths">6 meses</span>
               </div>
               <div data-chart="line" data-chart-values="82,85,84,88,90,91.2" data-chart-labels="Jan,Fev,Mar,Abr,Mai,Jun"></div>
             </div>
@@ -327,9 +329,9 @@
     <section id="projects">
       <div class="container">
         <div class="section-header" data-reveal>
-          <span class="section-eyebrow">// 03 — Projects</span>
-          <h2 class="section-title">Projetos</h2>
-          <p class="section-subtitle">
+          <span class="section-eyebrow" data-i18n="section.projectsEyebrow">// 03 — Projects</span>
+          <h2 class="section-title" data-i18n="section.projectsTitle">Projetos</h2>
+          <p class="section-subtitle" data-i18n="projects.subtitle">
             Projetos desenvolvidos para demonstrar conhecimentos em Business Intelligence, Analytics, Engenharia de Dados e Automação. Cada projeto representa aplicações práticas utilizando tecnologias empregadas no mercado para resolver problemas de negócio por meio de dados.
           </p>
         </div>
@@ -344,8 +346,8 @@
     <section id="certifications">
       <div class="container">
         <div class="section-header" data-reveal>
-          <span class="section-eyebrow">// 04 — Education</span>
-          <h2 class="section-title">Formação &amp; Certificações</h2>
+          <span class="section-eyebrow" data-i18n="section.educationEyebrow">// 04 — Education</span>
+          <h2 class="section-title" data-i18n="section.educationTitle">Formação &amp; Certificações</h2>
         </div>
 
         <!-- ---- Formação acadêmica ---- -->
@@ -355,11 +357,11 @@
               <div class="cert-card__logo">
                 <img src="assets/images/logos/fatec.png" alt="FATEC Votorantim" loading="lazy" onerror="this.parentElement.classList.add('cert-card__logo--fallback'); this.outerHTML='<span>FV</span>';" />
               </div>
-              <span class="tag cert-card__hours">Em andamento</span>
+              <span class="tag cert-card__hours" data-i18n="education.inProgress">Em andamento</span>
             </div>
             <h3 class="cert-card__title">Ciência de Dados para Negócios</h3>
             <p class="cert-card__institution">FATEC Votorantim</p>
-            <span class="cert-card__category mono">Graduação Tecnológica</span>
+            <span class="cert-card__category mono" data-i18n="education.degree">Graduação Tecnológica</span>
           </article>
         </div>
 
@@ -375,8 +377,8 @@
       <div class="container">
         <div class="contact">
           <div class="section-header" data-reveal>
-            <span class="section-eyebrow">// 05 — Contact</span>
-            <h2 class="section-title contact__title">Vamos conversar.</h2>
+            <span class="section-eyebrow" data-i18n="section.contactEyebrow">// 05 — Contact</span>
+            <h2 class="section-title contact__title" data-i18n="contact.title">Vamos conversar.</h2>
           </div>
 
           <div class="contact__actions" data-reveal data-reveal-delay="80">
@@ -404,11 +406,12 @@
         <a href="mailto:joaogabrieltorre@gmail.com">E-mail</a>
       </div>
 
-      <span class="footer__meta">© <span data-current-year></span> João Gabriel Torre. Todos os direitos reservados.</span>
+      <span class="footer__meta">© <span data-current-year></span> <span data-i18n="footer.rights">João Gabriel Torre. Todos os direitos reservados.</span></span>
     </div>
   </footer>
 
   <!-- Scripts -->
+  <script src="assets/js/i18n.js"></script>
   <script src="assets/js/particles.js"></script>
   <script src="assets/js/typing.js"></script>
   <script src="assets/js/animations.js"></script>

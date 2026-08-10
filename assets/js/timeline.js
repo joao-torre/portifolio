@@ -27,18 +27,20 @@
   function render(experiences) {
     list.innerHTML = experiences
       .map((exp, index) => {
+        const lang = window.portfolioI18n?.getLanguage() || 'pt';
+        const localized = exp[lang] || exp.pt || exp;
         const stackTags = exp.stack.map((s) => `<span class="tag">${s}</span>`).join('');
-        const highlights = exp.highlights.map((h) => `<li>${h}</li>`).join('');
+        const highlights = localized.highlights.map((h) => `<li>${h}</li>`).join('');
 
         return `
           <li class="timeline__item${exp.current ? ' timeline__item--current' : ''}" data-reveal data-reveal-delay="${index * 80}">
             <div class="timeline__meta">
-              <span>${exp.period}</span>
+              <span>${localized.period}</span>
               <span>·</span>
               <span>${exp.location}</span>
-              ${exp.current ? '<span class="timeline__badge">Atual</span>' : ''}
+              ${exp.current ? `<span class="timeline__badge">${window.portfolioI18n?.t('dynamic.current') || 'Atual'}</span>` : ''}
             </div>
-            <h3 class="timeline__role">${exp.role}</h3>
+            <h3 class="timeline__role">${localized.role}</h3>
             <p class="timeline__company">${exp.company}</p>
             <ul class="timeline__highlights">${highlights}</ul>
             <div class="timeline__stack">${stackTags}</div>
@@ -70,4 +72,5 @@
   }
 
   document.addEventListener('DOMContentLoaded', loadExperience);
+  window.addEventListener('languagechange', loadExperience);
 })();

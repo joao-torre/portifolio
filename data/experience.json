@@ -21,7 +21,31 @@
       "Amazon S3",
       "Python",
       "Power Query"
-    ]
+    ],
+    "pt": {
+      "role": "Analista de Planejamento de Cobrança",
+      "period": "Jun/2026 — Atual",
+      "highlights": [
+        "Desenvolvimento de dashboards executivos e indicadores em Power BI para acompanhamento de performance e resultados das carteiras de cobrança.",
+        "Extração, tratamento e análise de grandes volumes de dados utilizando Oracle SQL, Amazon Athena e Amazon S3.",
+        "Análise de carteiras, aging, segmentação e comportamento operacional para apoiar estratégias de cobrança e recuperação.",
+        "Automatização de rotinas analíticas utilizando Python e Power Query, aumentando a eficiência e reduzindo atividades manuais.",
+        "Construção de análises e relatórios para suporte à tomada de decisão da gestão, conectando indicadores operacionais a objetivos de negócio.",
+        "Atuação integrada com Operação, Analytics, Dados e Tecnologia na evolução de processos, indicadores e estratégias."
+      ]
+    },
+    "en": {
+      "role": "Collections Planning Analyst",
+      "period": "Jun 2026 — Present",
+      "highlights": [
+        "Developing executive dashboards and Power BI indicators to monitor collections portfolio performance and results.",
+        "Extracting, transforming and analyzing large volumes of data using Oracle SQL, Amazon Athena and Amazon S3.",
+        "Analyzing portfolios, aging, segmentation and operational behavior to support collections and recovery strategies.",
+        "Automating analytical routines with Python and Power Query, increasing efficiency and reducing manual work.",
+        "Building analyses and reports to support management decision-making, connecting operational indicators to business objectives.",
+        "Working closely with Operations, Analytics, Data and Technology teams to improve processes, indicators and strategies."
+      ]
+    }
   },
   {
     "role": "Assistente de Operações",
@@ -42,7 +66,31 @@
       "Genesys Cloud CX",
       "Excel",
       "Power BI"
-    ]
+    ],
+    "pt": {
+      "role": "Assistente de Operações",
+      "period": "Jun/2024 — Mai/2026",
+      "highlights": [
+        "Gestão operacional de campanhas de cobrança ativa e receptiva utilizando Genesys Cloud CX.",
+        "Parametrização e acompanhamento de campanhas, filas, estratégias de discagem e distribuição operacional.",
+        "Acompanhamento de estratégias de acionamento, segmentação de clientes e régua de cobrança.",
+        "Desenvolvimento de análises operacionais, forecast e planejamento de capacidade para suporte à gestão.",
+        "Identificação de gargalos e oportunidades de melhoria por meio da análise de indicadores operacionais.",
+        "Interface entre Operação, Planejamento, Analytics e Tecnologia para resolução de incidentes e evolução dos processos."
+      ]
+    },
+    "en": {
+      "role": "Operations Assistant",
+      "period": "Jun 2024 — May 2026",
+      "highlights": [
+        "Operational management of active and inbound collections campaigns using Genesys Cloud CX.",
+        "Campaign parameterization and monitoring of queues, dialing strategies and operational distribution.",
+        "Monitoring contact strategies, customer segmentation and collections workflows.",
+        "Developing operational analyses, forecasting and capacity planning to support management.",
+        "Identifying bottlenecks and improvement opportunities through operational KPI analysis.",
+        "Working across Operations, Planning, Analytics and Technology to resolve incidents and improve processes."
+      ]
+    }
   },
   {
     "role": "Jovem Aprendiz",
@@ -57,6 +105,22 @@
     ],
     "stack": [
       "Excel"
-    ]
+    ],
+    "pt": {
+      "role": "Jovem Aprendiz",
+      "period": "Fev/2023 — Mai/2024",
+      "highlights": [
+        "Apoio às rotinas operacionais com foco em organização, tratamento e acompanhamento de dados.",
+        "Criação e manutenção de planilhas e dashboards para monitoramento de indicadores."
+      ]
+    },
+    "en": {
+      "role": "Apprentice",
+      "period": "Feb 2023 — May 2024",
+      "highlights": [
+        "Supporting operational routines focused on data organization, processing and monitoring.",
+        "Creating and maintaining spreadsheets and dashboards for KPI monitoring."
+      ]
+    }
   }
 ]

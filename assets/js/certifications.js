@@ -37,6 +37,9 @@
     grid.innerHTML = certifications
       .map((cert, index) => {
         const badgeInitials = initials(cert.institution);
+        const lang = window.portfolioI18n?.getLanguage() || 'pt';
+        const category = lang === 'en' ? (cert.enCategory || cert.category) : (cert.ptCategory || cert.category);
+        const title = lang === 'en' ? (cert.enTitle || cert.title) : (cert.ptTitle || cert.title);
 
         return `
           <article class="cert-card" data-reveal data-reveal-delay="${index * 70}">
@@ -46,10 +49,10 @@
               </div>
               ${cert.hours ? `<span class="tag cert-card__hours">${cert.hours}h</span>` : ''}
             </div>
-            <h3 class="cert-card__title">${cert.title}</h3>
+            <h3 class="cert-card__title">${title}</h3>
             <p class="cert-card__institution">${cert.institution}</p>
-            <span class="cert-card__category mono">${cert.category}</span>
-            ${cert.credentialUrl ? `<a href="${cert.credentialUrl}" target="_blank" rel="noopener noreferrer" class="cert-card__link">Ver credencial →</a>` : ''}
+            <span class="cert-card__category mono">${category}</span>
+            ${cert.credentialUrl ? `<a href="${cert.credentialUrl}" target="_blank" rel="noopener noreferrer" class="cert-card__link">${window.portfolioI18n?.t("dynamic.viewCredential") || "Ver credencial →"}</a>` : ''}
           </article>
         `;
       })
@@ -77,4 +80,5 @@
   }
 
   document.addEventListener('DOMContentLoaded', loadCertifications);
+  window.addEventListener('languagechange', loadCertifications);
 })();

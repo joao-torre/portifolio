@@ -6,7 +6,8 @@
 
 (function () {
   function typeElement(el) {
-    const text = el.getAttribute('data-typing-text') || el.textContent;
+    const key = el.getAttribute('data-typing-key');
+    const text = key && window.portfolioI18n ? window.portfolioI18n.t(key) : (el.getAttribute('data-typing-text') || el.textContent);
     const speed = Number(el.getAttribute('data-typing-speed')) || 38;
     const startDelay = Number(el.getAttribute('data-typing-delay')) || 0;
 
@@ -25,14 +26,18 @@
     setTimeout(typeChar, startDelay);
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
+  function initTyping() {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     document.querySelectorAll('[data-typing]').forEach((el) => {
       if (prefersReducedMotion) {
-        el.textContent = el.getAttribute('data-typing-text') || el.textContent;
+        const key = el.getAttribute('data-typing-key');
+        el.textContent = key && window.portfolioI18n ? window.portfolioI18n.t(key) : (el.getAttribute('data-typing-text') || el.textContent);
         return;
       }
       typeElement(el);
     });
-  });
+  }
+
+  document.addEventListener('DOMContentLoaded', initTyping);
+  window.addEventListener('languagechange', initTyping);
 })();
