@@ -567,3 +567,34 @@ section {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+
+/* ===== Navbar final layout ===== */
+.navbar--centered {
+  position: relative;
+}
+
+.navbar--centered .nav-links,
+.navbar--centered .navbar__links,
+.navbar--centered nav ul {
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  .navbar--centered .nav-links,
+  .navbar--centered .navbar__links,
+  .navbar--centered nav ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar--centered .nav-links,
+  .navbar--centered .navbar__links,
+  .navbar--centered nav ul {
+    justify-content: center;
+  }
+}
