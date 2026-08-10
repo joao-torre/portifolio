@@ -6,7 +6,7 @@
 (function () {
   const translations = {
     pt: {
-      "meta.title": "João Gabriel Torre — Data Analytics, Crédito & Risco | BI",
+      "meta.title": "Portfólio Profissional João Torre",
       "meta.description": "João Gabriel Gomes da Torre — Analista de Dados especializado em Crédito, Cobrança, Risco e Business Intelligence.",
       "meta.locale": "pt_BR",
       "nav.skip": "Pular para o conteúdo",
@@ -78,6 +78,7 @@
       "projects.subtitle": "Projetos desenvolvidos para demonstrar conhecimentos em Business Intelligence, Analytics, Engenharia de Dados e Automação. Cada projeto representa aplicações práticas utilizando tecnologias empregadas no mercado para resolver problemas de negócio por meio de dados.",
       "education.inProgress": "Em andamento",
       "education.degree": "Graduação Tecnológica",
+      "education.fatecTitle": "Ciência de Dados para Negócios",
       "contact.title": "Vamos conversar.",
       "footer.rights": "João Gabriel Torre. Todos os direitos reservados.",
       "dynamic.current": "Atual",
@@ -93,7 +94,7 @@
       "dynamic.copied": "E-mail copiado ✓"
     },
     en: {
-      "meta.title": "João Gabriel Torre — Data Analytics, Credit & Risk | BI",
+      "meta.title": "João Torre — Professional Portfolio",
       "meta.description": "João Gabriel Gomes da Torre — Data Analyst focused on Credit, Collections, Risk and Business Intelligence.",
       "meta.locale": "en_US",
       "nav.skip": "Skip to content",
@@ -165,6 +166,7 @@
       "projects.subtitle": "Projects developed to demonstrate skills in Business Intelligence, Analytics, Data Engineering and Automation. Each project represents a practical application of market technologies to solve business problems through data.",
       "education.inProgress": "In progress",
       "education.degree": "Technology Degree",
+      "education.fatecTitle": "Data Science for Business",
       "contact.title": "Let's connect.",
       "footer.rights": "João Gabriel Torre. All rights reserved.",
       "dynamic.current": "Current",
