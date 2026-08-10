@@ -13,15 +13,16 @@
   },
   {
     "title": "Python and Statistics for Financial Analysis",
-    "institution": "HKUST",
+    "institution": "Universidade de Ciência e Tecnologia de Hong Kong",
     "hours": 12,
     "category": "Python • Statistics • Financial Analytics",
-    "logo": "assets/images/logos/hkust.png",
+    "logo": "assets/images/logos/Universidade de Ciência e Tecnologia de Hong Kong.png",
     "credentialUrl": "",
     "ptCategory": "Python • Estatística • Análise Financeira",
     "enCategory": "Python • Statistics • Financial Analytics",
     "ptTitle": "Python e Estatística para Análise Financeira",
-    "enTitle": "Python and Statistics for Financial Analysis"
+    "enTitle": "Python and Statistics for Financial Analysis",
+    "institutionUrl": "https://pt.wikipedia.org/wiki/Universidade_de_Ci%C3%AAncia_e_Tecnologia_de_Hong_Kong"
   },
   {
     "title": "Microsoft Power BI Data Analyst Certificate",

@@ -50,7 +50,7 @@
               ${cert.hours ? `<span class="tag cert-card__hours">${cert.hours}h</span>` : ''}
             </div>
             <h3 class="cert-card__title">${title}</h3>
-            <p class="cert-card__institution">${cert.institution}</p>
+            ${cert.institutionUrl ? `<p class="cert-card__institution"><a href="${cert.institutionUrl}" target="_blank" rel="noopener noreferrer"><strong>${cert.institution}</strong></a></p>` : `<p class="cert-card__institution">${cert.institution}</p>`}
             <span class="cert-card__category mono">${category}</span>
             ${cert.credentialUrl ? `<a href="${cert.credentialUrl}" target="_blank" rel="noopener noreferrer" class="cert-card__link">${window.portfolioI18n?.t("dynamic.viewCredential") || "Ver credencial →"}</a>` : ''}
           </article>

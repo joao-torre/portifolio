@@ -5,14 +5,14 @@
     "location": "Sorocaba, SP",
     "period": "Jun/2026 — Atual",
     "current": true,
-    "summary": "Analytics aplicado a cobrança, performance operacional e gestão de carteiras.",
+    "summary": "Atuação no desenvolvimento de soluções analíticas e indicadores para suporte à tomada de decisão, otimização operacional e evolução da performance das operações de cobrança.",
     "highlights": [
-      "Desenvolvimento de dashboards executivos e indicadores em Power BI para acompanhamento de performance e resultados das carteiras de cobrança.",
-      "Extração, tratamento e análise de grandes volumes de dados utilizando Oracle SQL, Amazon Athena e Amazon S3.",
-      "Análise de carteiras, aging, segmentação e comportamento operacional para apoiar estratégias de cobrança e recuperação.",
-      "Automatização de rotinas analíticas utilizando Python e Power Query, aumentando a eficiência e reduzindo atividades manuais.",
-      "Construção de análises e relatórios para suporte à tomada de decisão da gestão, conectando indicadores operacionais a objetivos de negócio.",
-      "Atuação integrada com Operação, Analytics, Dados e Tecnologia na evolução de processos, indicadores e estratégias."
+      "Desenvolvimento de dashboards executivos em Power BI para monitoramento de performance operacional e indicadores estratégicos.",
+      "Extração, tratamento e modelagem de dados utilizando Oracle Database, Amazon Athena e Amazon S3.",
+      "Estruturação de análises sobre comportamento de carteiras, recuperação, segmentação, aging e eficiência operacional.",
+      "Automação de processos analíticos com Python e Power Query, reduzindo atividades manuais e ampliando a produtividade das rotinas de análise.",
+      "Construção de estudos, relatórios executivos e indicadores para suporte à gestão e tomada de decisão.",
+      "Atuação integrada com equipes de Operações, Analytics, Dados e Tecnologia, contribuindo para a evolução de processos, indicadores e estratégias de cobrança."
     ],
     "stack": [
       "Power BI",
@@ -26,24 +26,24 @@
       "role": "Analista de Planejamento de Cobrança",
       "period": "Jun/2026 — Atual",
       "highlights": [
-        "Desenvolvimento de dashboards executivos e indicadores em Power BI para acompanhamento de performance e resultados das carteiras de cobrança.",
-        "Extração, tratamento e análise de grandes volumes de dados utilizando Oracle SQL, Amazon Athena e Amazon S3.",
-        "Análise de carteiras, aging, segmentação e comportamento operacional para apoiar estratégias de cobrança e recuperação.",
-        "Automatização de rotinas analíticas utilizando Python e Power Query, aumentando a eficiência e reduzindo atividades manuais.",
-        "Construção de análises e relatórios para suporte à tomada de decisão da gestão, conectando indicadores operacionais a objetivos de negócio.",
-        "Atuação integrada com Operação, Analytics, Dados e Tecnologia na evolução de processos, indicadores e estratégias."
+        "Desenvolvimento de dashboards executivos em Power BI para monitoramento de performance operacional e indicadores estratégicos.",
+        "Extração, tratamento e modelagem de dados utilizando Oracle Database, Amazon Athena e Amazon S3.",
+        "Estruturação de análises sobre comportamento de carteiras, recuperação, segmentação, aging e eficiência operacional.",
+        "Automação de processos analíticos com Python e Power Query, reduzindo atividades manuais e ampliando a produtividade das rotinas de análise.",
+        "Construção de estudos, relatórios executivos e indicadores para suporte à gestão e tomada de decisão.",
+        "Atuação integrada com equipes de Operações, Analytics, Dados e Tecnologia, contribuindo para a evolução de processos, indicadores e estratégias de cobrança."
       ]
     },
     "en": {
       "role": "Collections Planning Analyst",
       "period": "Jun 2026 — Present",
       "highlights": [
-        "Developing executive dashboards and Power BI indicators to monitor collections portfolio performance and results.",
-        "Extracting, transforming and analyzing large volumes of data using Oracle SQL, Amazon Athena and Amazon S3.",
-        "Analyzing portfolios, aging, segmentation and operational behavior to support collections and recovery strategies.",
-        "Automating analytical routines with Python and Power Query, increasing efficiency and reducing manual work.",
-        "Building analyses and reports to support management decision-making, connecting operational indicators to business objectives.",
-        "Working closely with Operations, Analytics, Data and Technology teams to improve processes, indicators and strategies."
+        "Developing executive Power BI dashboards to monitor operational performance and strategic KPIs.",
+        "Extracting, transforming and modeling data using Oracle Database, Amazon Athena and Amazon S3.",
+        "Structuring analyses on portfolio behavior, recovery, segmentation, aging and operational efficiency.",
+        "Automating analytical processes with Python and Power Query, reducing manual activities and increasing productivity.",
+        "Building studies, executive reports and KPIs to support management and decision-making.",
+        "Working closely with Operations, Analytics, Data and Technology teams to improve processes, indicators and collections strategies."
       ]
     }
   },
@@ -53,14 +53,13 @@
     "location": "Sorocaba, SP",
     "period": "Jun/2024 — Mai/2026",
     "current": false,
-    "summary": "Planejamento operacional, campanhas de cobrança e análise de performance.",
+    "summary": "Atuação no planejamento e suporte às operações, com foco no acompanhamento de campanhas, gestão operacional e desenvolvimento de análises para melhoria contínua da performance.",
     "highlights": [
-      "Gestão operacional de campanhas de cobrança ativa e receptiva utilizando Genesys Cloud CX.",
-      "Parametrização e acompanhamento de campanhas, filas, estratégias de discagem e distribuição operacional.",
-      "Acompanhamento de estratégias de acionamento, segmentação de clientes e régua de cobrança.",
-      "Desenvolvimento de análises operacionais, forecast e planejamento de capacidade para suporte à gestão.",
-      "Identificação de gargalos e oportunidades de melhoria por meio da análise de indicadores operacionais.",
-      "Interface entre Operação, Planejamento, Analytics e Tecnologia para resolução de incidentes e evolução dos processos."
+      "Gestão operacional de campanhas utilizando Genesys Cloud CX.",
+      "Parametrização de filas, estratégias de discagem e regras de distribuição operacional.",
+      "Elaboração de análises operacionais, forecast e estudos de planejamento de capacidade.",
+      "Construção e acompanhamento de dashboards e indicadores de performance operacional.",
+      "Interface entre as áreas de Operações, Planejamento e Tecnologia, apoiando a implementação e evolução de soluções operacionais."
     ],
     "stack": [
       "Genesys Cloud CX",
@@ -71,24 +70,22 @@
       "role": "Assistente de Operações",
       "period": "Jun/2024 — Mai/2026",
       "highlights": [
-        "Gestão operacional de campanhas de cobrança ativa e receptiva utilizando Genesys Cloud CX.",
-        "Parametrização e acompanhamento de campanhas, filas, estratégias de discagem e distribuição operacional.",
-        "Acompanhamento de estratégias de acionamento, segmentação de clientes e régua de cobrança.",
-        "Desenvolvimento de análises operacionais, forecast e planejamento de capacidade para suporte à gestão.",
-        "Identificação de gargalos e oportunidades de melhoria por meio da análise de indicadores operacionais.",
-        "Interface entre Operação, Planejamento, Analytics e Tecnologia para resolução de incidentes e evolução dos processos."
+        "Gestão operacional de campanhas utilizando Genesys Cloud CX.",
+        "Parametrização de filas, estratégias de discagem e regras de distribuição operacional.",
+        "Elaboração de análises operacionais, forecast e estudos de planejamento de capacidade.",
+        "Construção e acompanhamento de dashboards e indicadores de performance operacional.",
+        "Interface entre as áreas de Operações, Planejamento e Tecnologia, apoiando a implementação e evolução de soluções operacionais."
       ]
     },
     "en": {
       "role": "Operations Assistant",
       "period": "Jun 2024 — May 2026",
       "highlights": [
-        "Operational management of active and inbound collections campaigns using Genesys Cloud CX.",
-        "Campaign parameterization and monitoring of queues, dialing strategies and operational distribution.",
-        "Monitoring contact strategies, customer segmentation and collections workflows.",
-        "Developing operational analyses, forecasting and capacity planning to support management.",
-        "Identifying bottlenecks and improvement opportunities through operational KPI analysis.",
-        "Working across Operations, Planning, Analytics and Technology to resolve incidents and improve processes."
+        "Operational management of campaigns using Genesys Cloud CX.",
+        "Parameterization of queues, dialing strategies and operational distribution rules.",
+        "Developing operational analyses, forecasting and capacity planning studies.",
+        "Building and monitoring dashboards and operational performance indicators.",
+        "Working across Operations, Planning and Technology to support the implementation and improvement of operational solutions."
       ]
     }
   },

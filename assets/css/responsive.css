@@ -53,6 +53,10 @@
     position: static;
   }
 
+  .skills-grid {
+    transform: none;
+  }
+
   .tech-stack__grid {
     grid-template-columns: 1fr;
   }
