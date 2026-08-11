@@ -54,13 +54,13 @@ Para enriquecer um card específico com objetivo, desafios e aprendizados, adici
 }
 ```
 
-Repositórios sem entrada correspondente ainda aparecem — só que com a descrição padrão do GitHub, no lugar de objetivo/desafios/aprendizados.
+Repositórios sem entrada correspondente ainda aparecem, só que com a descrição padrão do GitHub, no lugar de objetivo/desafios/aprendizados.
 
 ## Deploy na Vercel
 
 Não preciso rodar nenhum build, é HTML/CSS/JS puro, então a Vercel serve direto.
 
-1. Suba o repositório pro GitHub (`git push origin main`).
+1. Subir o repositório pro GitHub (`git push origin main`).
 2. Em [vercel.com/new](https://vercel.com/new), importe o repositório.
 3. Em **Framework Preset**, selecione **Other** (ou deixe a detecção automática — ela reconhece como site estático).
 4. **Build Command**: deixe vazio. **Output Directory**: deixe vazio (raiz do projeto).
@@ -77,8 +77,6 @@ Depois é só re-fazer o commit — a Vercel re-deploya automaticamente a cada p
 ## SEO
 
 - Meta tags completas (description, keywords, Open Graph, Twitter Card)
-- Imagem de OG gerada sob medida (`assets/images/background/og-image.jpg`, 1200×630) — troque por uma com foto real quando tiver
-- Dados estruturados (`schema.org/Person`) no `<head>`, pra buscadores entenderem que a página é sobre uma pessoa e sua atuação profissional
 - `sitemap.xml` e `robots.txt`
 - Página 404 customizada (`404.html`)
 
