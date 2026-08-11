@@ -4,7 +4,7 @@ Site pessoal de João Gabriel Gomes da Torre, Data Analytics com foco em Crédit
 
 **Conceito:** Transforming Data into Strategic Decisions.
 
-🔗 Live: _em breve (deploy na Vercel — Sprint 4)_
+🔗 Live: https://joao-torre.vercel.app/#home
 
 ## Stack
 
