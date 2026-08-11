@@ -1,6 +1,6 @@
 # João Gabriel Torre — Portfolio
 
-Portifolio profissional de João Gabriel Gomes da Torre, Data.
+Portifolio profissional de João Gabriel Gomes da Torre.
 
 **Conceito:** Transforming Data into Strategic Decisions.
 
