@@ -113,3 +113,10 @@ Tipografia: **Space Grotesk** (títulos) · **Inter** (texto) · **JetBrains Mon
 
 João Gabriel Gomes da Torre
 [LinkedIn](https://linkedin.com/in/joaogabrieltorre) · [GitHub](https://github.com/joao-torre) · joaogabrieltorre@gmail.com
+
+
+## Vercel Web Analytics
+
+Este projeto usa HTML/CSS/JavaScript puro, então não é necessário instalar `@vercel/analytics` nem usar o componente React `<Analytics />`. A integração foi adicionada diretamente ao HTML com o script de Web Analytics da Vercel.
+
+Antes de validar os dados, habilite **Web Analytics** no dashboard do projeto na Vercel e faça um novo deploy.
