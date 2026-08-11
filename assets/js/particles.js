@@ -26,11 +26,11 @@
     density: 13000, // px² por nó — quanto maior, menos nós
     speed: 0.15,
     hub: {
-      // Posição relativa (0–1) dentro do canvas. Fica no vazio à direita
-      // do texto do hero, só é ativado em telas largas o bastante.
-      xRatio: 0.80,
+      // Posicionado dinamicamente no espaço livre à direita do texto do
+      // hero (ver initHub). Só aparece se sobrar espaço de verdade —
+      // funciona independente de zoom/escala de tela.
       yRatio: 0.42,
-      minWidth: 980,
+      minFreeSpace: 200, // px livres mínimos à direita do texto pra ativar
       radius: 3.4,
       linkDistance: 220,
       color: 'rgba(96, 165, 250, 0.9)',
@@ -63,9 +63,27 @@
   }
 
   function initHub() {
-    hub = width >= config.hub.minWidth
-      ? { x: width * config.hub.xRatio, y: height * config.hub.yRatio }
-      : null;
+    const contentEl = document.querySelector('.hero__content');
+    const canvasRect = canvas.getBoundingClientRect();
+
+    if (!contentEl || canvasRect.width === 0) {
+      hub = null;
+      return;
+    }
+
+    const contentRect = contentEl.getBoundingClientRect();
+    const contentRightEdge = contentRect.right - canvasRect.left;
+    const freeSpace = width - contentRightEdge;
+
+    if (freeSpace < config.hub.minFreeSpace) {
+      hub = null;
+      return;
+    }
+
+    hub = {
+      x: contentRightEdge + freeSpace / 2,
+      y: height * config.hub.yRatio,
+    };
   }
 
   function step() {
