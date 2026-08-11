@@ -1,6 +1,6 @@
 # João Gabriel Torre — Portfolio
 
-Site pessoal de João Gabriel Gomes da Torre, Data Analytics com foco em Crédito, Cobrança, Risco e Business Intelligence.
+Portifolio profissional de João Gabriel Gomes da Torre, Data.
 
 **Conceito:** Transforming Data into Strategic Decisions.
 
@@ -58,7 +58,7 @@ Repositórios sem entrada correspondente ainda aparecem — só que com a descri
 
 ## Deploy na Vercel
 
-Não preciso rodar nenhum build — é HTML/CSS/JS puro, então a Vercel serve direto.
+Não preciso rodar nenhum build, é HTML/CSS/JS puro, então a Vercel serve direto.
 
 1. Suba o repositório pro GitHub (`git push origin main`).
 2. Em [vercel.com/new](https://vercel.com/new), importe o repositório.
