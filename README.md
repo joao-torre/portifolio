@@ -1,10 +1,10 @@
 # João Gabriel Torre — Portfolio
 
-Portifolio profissional de João Gabriel Gomes da Torre.
+Site pessoal de João Gabriel Gomes da Torre, Data Analytics com foco em Crédito, Cobrança, Risco e Business Intelligence.
 
 **Conceito:** Transforming Data into Strategic Decisions.
 
-🔗 Live: https://joao-torre.vercel.app/#home
+🔗 Live: _em breve (deploy na Vercel — Sprint 4)_
 
 ## Stack
 
@@ -54,13 +54,13 @@ Para enriquecer um card específico com objetivo, desafios e aprendizados, adici
 }
 ```
 
-Repositórios sem entrada correspondente ainda aparecem, só que com a descrição padrão do GitHub, no lugar de objetivo/desafios/aprendizados.
+Repositórios sem entrada correspondente ainda aparecem — só que com a descrição padrão do GitHub, no lugar de objetivo/desafios/aprendizados.
 
 ## Deploy na Vercel
 
-Não preciso rodar nenhum build, é HTML/CSS/JS puro, então a Vercel serve direto.
+Não preciso rodar nenhum build — é HTML/CSS/JS puro, então a Vercel serve direto.
 
-1. Subir o repositório pro GitHub (`git push origin main`).
+1. Suba o repositório pro GitHub (`git push origin main`).
 2. Em [vercel.com/new](https://vercel.com/new), importe o repositório.
 3. Em **Framework Preset**, selecione **Other** (ou deixe a detecção automática — ela reconhece como site estático).
 4. **Build Command**: deixe vazio. **Output Directory**: deixe vazio (raiz do projeto).
@@ -77,6 +77,8 @@ Depois é só re-fazer o commit — a Vercel re-deploya automaticamente a cada p
 ## SEO
 
 - Meta tags completas (description, keywords, Open Graph, Twitter Card)
+- Imagem de OG gerada sob medida (`assets/images/background/og-image.jpg`, 1200×630) — troque por uma com foto real quando tiver
+- Dados estruturados (`schema.org/Person`) no `<head>`, pra buscadores entenderem que a página é sobre uma pessoa e sua atuação profissional
 - `sitemap.xml` e `robots.txt`
 - Página 404 customizada (`404.html`)
 
@@ -113,10 +115,3 @@ Tipografia: **Space Grotesk** (títulos) · **Inter** (texto) · **JetBrains Mon
 
 João Gabriel Gomes da Torre
 [LinkedIn](https://linkedin.com/in/joaogabrieltorre) · [GitHub](https://github.com/joao-torre) · joaogabrieltorre@gmail.com
-
-
-## Vercel Web Analytics
-
-Este projeto usa HTML/CSS/JavaScript puro, então não é necessário instalar `@vercel/analytics` nem usar o componente React `<Analytics />`. A integração foi adicionada diretamente ao HTML com o script de Web Analytics da Vercel.
-
-Antes de validar os dados, habilite **Web Analytics** no dashboard do projeto na Vercel e faça um novo deploy.
