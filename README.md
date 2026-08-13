@@ -4,7 +4,7 @@ Site pessoal de João Gabriel Gomes da Torre, Data Analytics com foco em Crédit
 
 **Conceito:** Transforming Data into Strategic Decisions.
 
-🔗 Live: _em breve (deploy na Vercel — Sprint 4)_
+🔗 Live: [joao-torre.vercel.app](https://joao-torre.vercel.app/)
 
 ## Stack
 
@@ -18,12 +18,18 @@ Site pessoal de João Gabriel Gomes da Torre, Data Analytics com foco em Crédit
 ```
 portfolio/
 ├── index.html
+├── 404.html
+├── vercel.json
+├── robots.txt
+├── sitemap.xml
+├── site.webmanifest
 ├── assets/
-│   ├── css/          → variables, reset, style, components, animations, responsive
-│   ├── js/            → main, github, animations, typing, cursor, particles
+│   ├── css/            → variables, reset, style, components, animations, responsive
+│   ├── js/              → main, i18n, github, projects, certifications, timeline,
+│   │                      dashboard, animations, typing, cursor, particles
 │   ├── images/
 │   └── fonts/
-└── data/               → experience.json, certifications.json, projects.json
+└── data/                 → experience.json, certifications.json, projects.json
 ```
 
 ## Rodando localmente
@@ -66,9 +72,9 @@ Não preciso rodar nenhum build — é HTML/CSS/JS puro, então a Vercel serve d
 4. **Build Command**: deixe vazio. **Output Directory**: deixe vazio (raiz do projeto).
 5. Clique em **Deploy**.
 
-Depois do primeiro deploy, a Vercel te dá uma URL tipo `seu-projeto.vercel.app`. Troque `https://joaogabrieltorre.vercel.app` pela URL real (ou pelo domínio customizado, se configurar um) nestes arquivos:
+Depois do primeiro deploy, a Vercel te dá uma URL tipo `seu-projeto.vercel.app`. Se trocar de domínio, atualize a URL nestes arquivos:
 
-- `index.html` — tags `canonical`, `og:url`, `og:image`, `twitter:image` e o JSON-LD
+- `index.html` — tag `canonical` e o JSON-LD (`url`)
 - `robots.txt` — linha `Sitemap:`
 - `sitemap.xml` — tag `<loc>`
 
@@ -76,11 +82,22 @@ Depois é só re-fazer o commit — a Vercel re-deploya automaticamente a cada p
 
 ## SEO
 
-- Meta tags completas (description, keywords, Open Graph, Twitter Card)
-- Imagem de OG gerada sob medida (`assets/images/background/og-image.jpg`, 1200×630) — troque por uma com foto real quando tiver
+- Meta tags completas (description, keywords)
 - Dados estruturados (`schema.org/Person`) no `<head>`, pra buscadores entenderem que a página é sobre uma pessoa e sua atuação profissional
 - `sitemap.xml` e `robots.txt`
 - Página 404 customizada (`404.html`)
+- **Sem Open Graph/Twitter Card de propósito**: essas tags fazem apps de chat (Teams, WhatsApp, LinkedIn) montarem um card com título/imagem ao colar o link. Removidas pra que o link apareça "limpo", só a URL, ao ser colado no Teams.
+
+## Analytics
+
+Web Analytics e Speed Insights da própria Vercel, via script direto no HTML (sem pacote npm, já que o site não tem build step):
+
+```html
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+```
+
+Presentes em `index.html` e `404.html`. Só funcionam em produção (domínio publicado na Vercel) — não coletam nada em `localhost` ou abrindo o arquivo direto (`file://`). Também precisa estar habilitado em **Project → Analytics** no dashboard da Vercel (é opt-in, não vem ligado por padrão no plano free).
 
 ## Acessibilidade & performance
 

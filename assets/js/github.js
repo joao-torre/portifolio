@@ -1,11 +1,7 @@
 /**
  * github.js
  * Integração com a GitHub REST API para listar repositórios automaticamente
- * na seção de Projetos.
- *
- * Status: reservado para o Sprint 3. A função abaixo já está pronta para uso,
- * mas ainda não é chamada em main.js — a seção de Projetos será construída
- * no próximo sprint e fará essa chamada.
+ * na seção de Projetos. A função abaixo é chamada por assets/js/projects.js.
  */
 
 const GITHUB_USERNAME = 'joao-torre';

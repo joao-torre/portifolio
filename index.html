@@ -409,5 +409,14 @@
   <script src="assets/js/projects.js"></script>
   <script src="assets/js/certifications.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <!-- Vercel Analytics & Speed Insights.
+       Site estático puro (sem build/npm), então em vez do pacote @vercel/analytics
+       usamos os scripts servidos diretamente pela Vercel. Só funcionam em produção
+       (domínio *.vercel.app ou domínio próprio) — em localhost/file:// não coletam nada,
+       isso é esperado. Precisa também estar habilitado em Project → Analytics no
+       dashboard da Vercel (é opt-in, não vem ligado por padrão). -->
+  <script defer src="/_vercel/insights/script.js"></script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
 </body>
 </html>
