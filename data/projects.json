@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "repo": "Financial-Anomaly-Detection",
+    "featured": true
+  },
+  {
+    "repo": "Credit-Recovery-Curve",
+    "featured": true
+  },
+  {
+    "repo": "Performance-Analytics",
+    "featured": true
+  }
+]

@@ -11,7 +11,11 @@ const GITHUB_USERNAME = 'joao-torre';
  * @returns {Promise<Array>} lista de repositórios já filtrada (sem forks) e mapeada
  */
 async function fetchGithubRepos() {
-  const endpoint = `https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=12`;
+  const FEATURED_REPOS = [
+  "Financial-Anomaly-Detection",
+  "Credit-Recovery-Curve",
+  "Performance-Analytics",
+];
 
   try {
     const response = await fetch(endpoint);
