@@ -1,28 +1,27 @@
 [
   {
-    "title": "Risk Management Specialization",
-    "institution": "New York Institute of Finance",
-    "hours": 40,
-    "category": "Risk Management • Enterprise Risk • Financial Risk",
-    "logo": "assets/images/logos/nyif.png",
+    "title": "Risk and Performance Management",
+    "institution": "ANBIMA",
+    "hours": "",
+    "category": "Risk Management • Performance • Investments",
+    "logo": "assets/images/logos/anbima.png",
     "credentialUrl": "",
-    "ptCategory": "Gestão de Riscos • Risco Empresarial • Risco Financeiro",
-    "enCategory": "Risk Management • Enterprise Risk • Financial Risk",
-    "ptTitle": "Especialização em Gestão de Riscos",
-    "enTitle": "Risk Management Specialization"
+    "ptCategory": "Gestão de Riscos • Performance • Investimentos",
+    "enCategory": "Risk Management • Performance • Investments",
+    "ptTitle": "Gestão de Riscos e Performance",
+    "enTitle": "Risk and Performance Management"
   },
   {
-    "title": "Python and Statistics for Financial Analysis",
-    "institution": "Universidade de Ciência e Tecnologia de Hong Kong",
-    "hours": 12,
-    "category": "Python • Statistics • Financial Analytics",
-    "logo": "assets/images/logos/hkust.png",
+    "title": "Power BI",
+    "institution": "FM2S Education and Consulting",
+    "hours": "",
+    "category": "Power BI • Data Visualization • Business Intelligence",
+    "logo": "assets/images/logos/fm2s.png",
     "credentialUrl": "",
-    "ptCategory": "Python • Estatística • Análise Financeira",
-    "enCategory": "Python • Statistics • Financial Analytics",
-    "ptTitle": "Python e Estatística para Análise Financeira",
-    "enTitle": "Python and Statistics for Financial Analysis",
-    "institutionUrl": "https://pt.wikipedia.org/wiki/Universidade_de_Ci%C3%AAncia_e_Tecnologia_de_Hong_Kong"
+    "ptCategory": "Power BI • Visualização de Dados • Business Intelligence",
+    "enCategory": "Power BI • Data Visualization • Business Intelligence",
+    "ptTitle": "Power BI",
+    "enTitle": "Power BI"
   },
   {
     "title": "Microsoft Power BI Data Analyst Certificate",
