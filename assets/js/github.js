@@ -1,40 +1,40 @@
 /**
  * github.js
- * Integração com a GitHub REST API para listar repositórios automaticamente
- * na seção de Projetos. A função abaixo é chamada por assets/js/projects.js.
+ * Carrega apenas os repositórios selecionados para a seção de Projetos.
  */
 
 const GITHUB_USERNAME = 'joao-torre';
 
-/**
- * Busca os repositórios públicos do usuário, ordenados por atualização mais recente.
- * @returns {Promise<Array>} lista de repositórios já filtrada (sem forks) e mapeada
- */
-async function fetchGithubRepos() {
-  const FEATURED_REPOS = [
-  "Financial-Anomaly-Detection",
-  "Credit-Recovery-Curve",
-  "Performance-Analytics",
+const FEATURED_REPOS = [
+  'Financial-Anomaly-Detection',
+  'Credit-Recovery-Curve',
+  'Performance-Analytics',
 ];
 
+async function fetchGithubRepos() {
   try {
-    const response = await fetch(endpoint);
-    if (!response.ok) throw new Error(`GitHub API respondeu ${response.status}`);
+    const requests = FEATURED_REPOS.map((repoName) =>
+      fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${repoName}`)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`GitHub API respondeu ${response.status} para ${repoName}`);
+          }
+          return response.json();
+        })
+    );
 
-    const repos = await response.json();
+    const repos = await Promise.all(requests);
 
-    return repos
-      .filter((repo) => !repo.fork)
-      .map((repo) => ({
-        name: repo.name,
-        description: repo.description || 'Sem descrição.',
-        url: repo.html_url,
-        language: repo.language,
-        stars: repo.stargazers_count,
-        updatedAt: repo.updated_at,
-      }));
+    return repos.map((repo) => ({
+      name: repo.name,
+      description: repo.description || 'Sem descrição.',
+      url: repo.html_url,
+      language: repo.language,
+      stars: repo.stargazers_count,
+      updatedAt: repo.updated_at,
+    }));
   } catch (error) {
-    console.error('[github.js] Falha ao buscar repositórios:', error);
+    console.error('[github.js] Falha ao buscar projetos selecionados:', error);
     return null;
   }
 }
