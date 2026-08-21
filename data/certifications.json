@@ -1,15 +1,15 @@
 [
   {
-    "title": "Risk and Performance Management",
-    "institution": "ANBIMA",
+    "title": "Sarbanes-Oxley Act (SOX) - CEFIS",
+    "institution": "CEFIS",
     "hours": "",
-    "category": "Risk Management • Performance • Investments",
-    "logo": "assets/images/logos/anbima.png",
+    "category": "Governance • Compliance • Internal Controls",
+    "logo": "assets/images/logos/cefis.png",
     "credentialUrl": "",
-    "ptCategory": "Gestão de Riscos • Performance • Investimentos",
-    "enCategory": "Risk Management • Performance • Investments",
-    "ptTitle": "Gestão de Riscos e Performance",
-    "enTitle": "Risk and Performance Management"
+    "ptCategory": "Governança • Compliance • Controles Internos",
+    "enCategory": "Governance • Compliance • Internal Controls",
+    "ptTitle": "Lei Sarbanes Oxley (SOX) - CEFIS",
+    "enTitle": "Sarbanes-Oxley Act (SOX) - CEFIS"
   },
   {
     "title": "Power BI",
@@ -32,8 +32,8 @@
     "credentialUrl": "",
     "ptCategory": "Power BI • DAX • Modelagem de Dados • Business Intelligence",
     "enCategory": "Power BI • DAX • Data Modeling • Business Intelligence",
-    "ptTitle": "Engenheiro Associado de Análise de Dados",
-    "enTitle": "Fabric Analytics Engineer Associate"
+    "ptTitle": "Certificado Microsoft Power BI Data Analyst",
+    "enTitle": "Microsoft Power BI Data Analyst Certificate"
   },
   {
     "title": "BI with Excel: Creating Databases with Spreadsheets",
@@ -70,5 +70,17 @@
     "enCategory": "Process Management & Continuous Improvement",
     "ptTitle": "Lean Six Sigma Yellow Belt",
     "enTitle": "Lean Six Sigma Yellow Belt"
+  },
+  {
+    "title": "Oracle AI Database Foundations Associate - Oracle",
+    "institution": "Oracle",
+    "hours": "",
+    "category": "Oracle Database • Artificial Intelligence • Data",
+    "logo": "assets/images/logos/oracle.png",
+    "credentialUrl": "",
+    "ptCategory": "Oracle Database • Inteligência Artificial • Dados",
+    "enCategory": "Oracle Database • Artificial Intelligence • Data",
+    "ptTitle": "Oracle AI Database Foundations Associate - Oracle",
+    "enTitle": "Oracle AI Database Foundations Associate - Oracle"
   }
 ]

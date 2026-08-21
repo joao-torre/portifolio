@@ -1,7 +1,8 @@
 /**
  * projects.js
- * Fonte primária: GitHub API (via fetchGithubRepos, definida em github.js).
- * Apenas os 3 repositórios definidos em FEATURED_REPOS aparecem no portfólio.
+ * Fonte primária: GitHub API (via fetchGithubRepos, definida em github.js) —
+ * é isso que torna a seção automática: todo repositório público novo aparece
+ * aqui sem precisar tocar em código.
  *
  * Fonte secundária (opcional): data/projects.json. Se um repositório tiver
  * uma entrada lá com o mesmo campo "repo", o card ganha objetivo, desafios,
